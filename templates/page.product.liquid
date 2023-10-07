@@ -1,0 +1,21 @@
+<div>
+	<div class="wrapper">
+
+		<div class="col-md-9" id="layout-page">
+
+			<span class="header-page clearfix">
+				<h1>{{ page.title }}</h1>
+			</span>
+			{%assign col = 'hot-products'%}
+			<div class="content-page">
+				<div class="grid">
+					{%for product_layout in collections[col].products limit:1%}
+					<div class="grid__item large--one-half">
+						{%include 'product-item-buynow' %}
+					</div>
+					{%endfor%}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

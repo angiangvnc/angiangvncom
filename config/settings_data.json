@@ -1,0 +1,4158 @@
+{
+
+"current": {
+
+
+"ajax_cart_method": "drawer",
+
+
+"cart_notes_enable": true,
+
+
+"color_body_bg": "#f0f0f0",
+
+
+"color_body_text": "#333333",
+
+
+"color_borders": "#dbdbdd",
+
+
+"color_footer_bg": "#f2f2f2",
+
+
+"color_footer_social_link": "#bbbbbb",
+
+
+"color_footer_text": "#636363",
+
+
+"color_primary": "#1f2746",
+
+
+"color_secondary": "#21b7cb",
+
+
+"favicon_enable": true,
+
+
+"footer_newsletter_enable": true,
+
+
+"footer_social_enable": true,
+
+
+"logo_use_image": true,
+
+
+"social_facebook_link": "https://www.facebook.com/SuploTeam/",
+
+
+"social_twitter_link": "https://twitter.com/",
+
+
+"logo_max_width": "",
+
+
+"newsletter_form_action": "",
+
+
+"cart_vendor_enable": false,
+
+
+"customer_layout": "theme",
+
+
+"color_header_bg": "#ffffff",
+
+
+"color_header_text": "#ffffff",
+
+
+"color_header_text_hover": "#ffffff",
+
+
+"color_navbar_bg": "#ffffff",
+
+
+"color_navbar_text": "#ffffff",
+
+
+"color_navbar_text_hover": "#ffffff",
+
+
+"base_font": "Muli",
+
+
+"header_hotline_title_1": "",
+
+
+"header_hotline_1": "",
+
+
+"header_hotline_title_2": "",
+
+
+"header_hotline_2": "",
+
+
+"slide_1": "1",
+
+
+"slide_1_link": "/collections/all",
+
+
+"slide_1_alt": "",
+
+
+"slide_2": "1",
+
+
+"slide_2_link": "/collections/all",
+
+
+"slide_2_alt": "",
+
+
+"slide_3": "1",
+
+
+"slide_3_link": "/collections/all",
+
+
+"slide_3_alt": "",
+
+
+"slide_4": "1",
+
+
+"slide_4_link": "/collections/all",
+
+
+"slide_4_alt": "",
+
+
+"home_section_1": "customize-search-bar",
+
+
+"home_section_2": "home-featured-products",
+
+
+"home_section_3": "home-banners",
+
+
+"home_section_4": "home-articles-video",
+
+
+"home_section_5": "home-brands",
+
+
+"home_section_6": "home-testimonials",
+
+
+"policy_title_1": "",
+
+
+"policy_desc_1": "",
+
+
+"policy_link_1": "",
+
+
+"policy_title_2": "",
+
+
+"policy_desc_2": "",
+
+
+"policy_link_2": "",
+
+
+"policy_title_3": "",
+
+
+"policy_desc_3": "",
+
+
+"policy_link_3": "",
+
+
+"policy_title_4": "",
+
+
+"policy_desc_4": "",
+
+
+"policy_link_4": "",
+
+
+"banner_link_1": "",
+
+
+"banner_link_2": "",
+
+
+"banner_link_3": "",
+
+
+"home_collection_title": "Bộ sưu tập",
+
+
+"use_menu_collection": "",
+
+
+"home_collection_menu": "",
+
+
+"home_parallax_title": "SUNSHINE STYLE",
+
+
+"home_parallax_desc": "",
+
+
+"home_parallax_btn_title": "",
+
+
+"home_parallax_btn_link": "",
+
+
+"featured_products_title": "SUNSHINE STYLE",
+
+
+"featured_products_menu": "",
+
+
+"home_blog_title": "SUNSHINE STYLE",
+
+
+"home_blog": "",
+
+
+"pagination_limit": "6",
+
+
+"show_vendor": true,
+
+
+"show_price": true,
+
+
+"price1": "5000000",
+
+
+"price2": "10000000",
+
+
+"price3": "15000000",
+
+
+"price4": "20000000",
+
+
+"price5": "30000000",
+
+
+"show_size": true,
+
+
+"size_value": "Ăn uống tự túc, Ăn uống theo đoàn",
+
+
+"show_color": false,
+
+
+"color_value_title_1": "Xanh",
+
+
+"color_value_1": "#6cbef5",
+
+
+"color_value_title_2": "Đỏ",
+
+
+"color_value_2": "#b31717",
+
+
+"color_value_title_3": "Hồng",
+
+
+"color_value_3": "#f799c8",
+
+
+"color_value_title_4": "Vàng",
+
+
+"color_value_4": "#e0e062",
+
+
+"color_value_title_5": "Xám",
+
+
+"color_value_5": "#e6e6e6",
+
+
+"color_value_title_6": "Đen",
+
+
+"color_value_6": "#000000",
+
+
+"color_value_title_7": "Tím",
+
+
+"color_value_7": "#de1bde",
+
+
+"color_value_title_8": "",
+
+
+"color_value_8": "#ffffff",
+
+
+"show_popular_product": "",
+
+
+"popular_product_title": "Sản phẩm nổi bật",
+
+
+"popular_collection": "",
+
+
+"popular_product_limit": "3",
+
+
+"blog_sidebar": "",
+
+
+"show_blog_banner_1": true,
+
+
+"blog_banner_link_1": "",
+
+
+"show_blog_banner_2": true,
+
+
+"blog_banner_link_2": "",
+
+
+"show_related_product": true,
+
+
+"related_product_title": "Sản phẩm nổi bật",
+
+
+"related_product_limit": "11",
+
+
+"policy_header_title": "",
+
+
+"footer_link_title_1": "",
+
+
+"footer_link_1": "",
+
+
+"footer_link_title_2": "",
+
+
+"footer_link_2": "",
+
+
+"footer_link_title_3": "",
+
+
+"footer_link_3": "",
+
+
+"footer_link_title_4": "",
+
+
+"footer_link_4": "",
+
+
+"footer_info_title": "",
+
+
+"footer_info_address": "",
+
+
+"footer_info_phone": "",
+
+
+"footer_info_mail": "",
+
+
+"footer_sub_title": "",
+
+
+"footer_sub_desc": "",
+
+
+"footer_sub_placeholder": "",
+
+
+"footer_connect_title": "",
+
+
+"footer_connect_desc": "",
+
+
+"footer_payment_title": "",
+
+
+"footer_payment_enable_1": "",
+
+
+"footer_payment_link_1": "",
+
+
+"footer_payment_enable_2": "",
+
+
+"footer_payment_link_2": "",
+
+
+"footer_payment_enable_3": "",
+
+
+"footer_payment_link_3": "",
+
+
+"footer_payment_enable_4": "",
+
+
+"footer_payment_link_4": "",
+
+
+"social_youtube_link": "https://www.youtube.com/",
+
+
+"social_google_link": "https://plus.google.com/",
+
+
+"contact_us_title": "",
+
+
+"contact_us_desc": "",
+
+
+"contact_us_map": "",
+
+
+"store_address_1": "Tòa nhà GP INVEST, 170 Đê La Thành, P.Ô Chợ Dừa, Q.Đống Đa, HN",
+
+
+"store_google_address_1": "",
+
+
+"store_address_2": "379 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội",
+
+
+"store_google_address_2": "",
+
+
+"store_address_3": "38 Hoàng Ngân, Trung Hoà, Cầu Giấy, Hà Nội",
+
+
+"store_google_address_3": "",
+
+
+"store_address_4": "tòa The Light, mặt phố Tố Hữu, Phường Trung Văn, Từ Liêm, Hà Nội",
+
+
+"store_google_address_4": "",
+
+
+"store_address_5": "Hanoi Creative City, Lương Yên, Hai Bà Trưng District, Hanoi",
+
+
+"store_google_address_5": "",
+
+
+"store_address_6": "68 Tân Mai, Hoàng Mai, Hanoi",
+
+
+"store_google_address_6": "",
+
+
+"store_address_7": "",
+
+
+"store_google_address_7": "",
+
+
+"store_address_8": "",
+
+
+"store_google_address_8": "",
+
+
+"store_address_9": "",
+
+
+"store_google_address_9": "",
+
+
+"store_address_10": "",
+
+
+"store_google_address_10": "",
+
+
+"use_popup": false,
+
+
+"popup_title": "ĐĂNG KÝ NHẬN TIN NGAY HÔM NAY",
+
+
+"popup_desc": "Suplo hứa sẽ không gửi những mail với nội dung không quan trọng hoặc spam. Các bạn là người đầu tiên biết được về:",
+
+
+"color_footer_link": "#ffffff",
+
+
+"color_footer_link_hover": "#ffffff",
+
+
+"color_button_1_bg": "#ffffff",
+
+
+"color_button_1_text": "#ffffff",
+
+
+"color_button_1_hover": "#ffffff",
+
+
+"color_button_1_text_hover": "#ffffff",
+
+
+"color_button_1_border": "#ffffff",
+
+
+"color_button_1_border_hover": "#ffffff",
+
+
+"color_button_2_bg": "#ffffff",
+
+
+"color_button_2_text": "#ffffff",
+
+
+"color_button_2_hover": "#ffffff",
+
+
+"color_button_2_text_hover": "#ffffff",
+
+
+"color_button_2_border": "#ffffff",
+
+
+"color_button_2_border_hover": "#ffffff",
+
+
+"color_button_3_bg": "#ffffff",
+
+
+"color_button_3_text": "#ffffff",
+
+
+"color_button_3_hover": "#ffffff",
+
+
+"color_button_3_text_hover": "#ffffff",
+
+
+"color_button_3_border": "#ffffff",
+
+
+"color_button_3_border_hover": "#ffffff",
+
+
+"hdt_bg_color": "#1f2746",
+
+
+"hdt_text_color": "#ffffff",
+
+
+"hdt_texthover_color": "#000",
+
+
+"hd_bg_color": "#000000",
+
+
+"hd_text_color": "#ffffff",
+
+
+"hd_texthover_color": "#ffffff",
+
+
+"navbar_text_color": "#ffffff",
+
+
+"navbar_texthover_color": "#ffffff",
+
+
+"nav_bg_color": "#333333",
+
+
+"hdm_bg_color": "#ffffff",
+
+
+"hdm_text_color": "#000000",
+
+
+"footer_text_color": "#333333",
+
+
+"footer_text_color_hover": "#21b7cb",
+
+
+"footer_text_color_title": "#1f2746",
+
+
+"shop_title": "Hệ thống cửa hàng trang phục và dụng cụ thể thao Suplo",
+
+
+"shop_address": "Chung Cư 1st Home, Nguyễn Hoàng, Mỹ Hòa, Long Xuyên, An Giang",
+
+
+"shop_hotline1": "(+84) 929 39 68 22",
+
+
+"shop_email": "angiangvnc@yahoo.com",
+
+
+"use_social_instagram": false,
+
+
+"social_instagram_link": "https://www.instagram.com/",
+
+
+"use_social_twitter": false,
+
+
+"use_social_facebook": false,
+
+
+"use_social_youtube": false,
+
+
+"use_social_googleplus": false,
+
+
+"hdt_sl_show": "",
+
+
+"hdt_sl_text": "",
+
+
+"hdt_sl_url": "",
+
+
+"hd_mainmenu": "main-menu",
+
+
+"use_megamenu_1": false,
+
+
+"megamenu_img_show1": "1",
+
+
+"megamenu_img_url1": "/collections/all",
+
+
+"megamenu_img_alt1": "",
+
+
+"use_megamenu_2": true,
+
+
+"megamenu_img_show2": "1",
+
+
+"megamenu_img_url2": "/collections/all",
+
+
+"megamenu_img_alt2": "",
+
+
+"use_megamenu_3": false,
+
+
+"megamenu_img_show3": "1",
+
+
+"megamenu_img_url3": "/collections/all",
+
+
+"megamenu_img_alt3": "",
+
+
+"use_megamenu_4": false,
+
+
+"megamenu_img_show4": "1",
+
+
+"megamenu_img_url4": "/collections/all",
+
+
+"megamenu_img_alt4": "",
+
+
+"use_megamenu_5": "",
+
+
+"megamenu_img_show5": "1",
+
+
+"megamenu_img_url5": "/collections/all",
+
+
+"megamenu_img_alt5": "",
+
+
+"use_megamenu_6": "",
+
+
+"megamenu_img_show6": "1",
+
+
+"megamenu_img_url6": "/collections/all",
+
+
+"megamenu_img_alt6": "",
+
+
+"use_megamenu_7": "",
+
+
+"megamenu_img_show7": "1",
+
+
+"megamenu_img_url7": "/collections/all",
+
+
+"megamenu_img_alt7": "",
+
+
+"use_megamenu_8": "",
+
+
+"megamenu_img_show8": "1",
+
+
+"megamenu_img_url8": "/collections/all",
+
+
+"megamenu_img_alt8": "",
+
+
+"use_megamenu_9": "",
+
+
+"megamenu_img_show9": "1",
+
+
+"megamenu_img_url9": "/collections/all",
+
+
+"megamenu_img_alt9": "",
+
+
+"use_megamenu_10": "",
+
+
+"megamenu_img_show10": "1",
+
+
+"megamenu_img_url10": "/collections/all",
+
+
+"megamenu_img_alt10": "",
+
+
+"header_search_placeholder": "Tìm kiếm sản phẩm...",
+
+
+"header_noti_text": "",
+
+
+"header_noti_url": "",
+
+
+"slide_5": "1",
+
+
+"slide_5_link": "/collections/all",
+
+
+"slide_5_alt": "",
+
+
+"home_section_7": "home-promotions",
+
+
+"home_section_8": "home-articles",
+
+
+"hbrand_show1": "1",
+
+
+"hbrand_url1": "/collections/all",
+
+
+"hbrand_alt1": "",
+
+
+"hbrand_show2": "1",
+
+
+"hbrand_url2": "/collections/all",
+
+
+"hbrand_alt2": "",
+
+
+"hbrand_show3": "1",
+
+
+"hbrand_url3": "/collections/all",
+
+
+"hbrand_alt3": "",
+
+
+"hbrand_show4": "1",
+
+
+"hbrand_url4": "/collections/all",
+
+
+"hbrand_alt4": "",
+
+
+"hbrand_show5": "1",
+
+
+"hbrand_url5": "/collections/all",
+
+
+"hbrand_alt5": "",
+
+
+"hbrand_show6": "1",
+
+
+"hbrand_url6": "/collections/all",
+
+
+"hbrand_alt6": "",
+
+
+"hbrand_show7": "1",
+
+
+"hbrand_url7": "/collections/all",
+
+
+"hbrand_alt7": "",
+
+
+"hbrand_show8": "1",
+
+
+"hbrand_url8": "/collections/all",
+
+
+"hbrand_alt8": "",
+
+
+"hbrand_show9": "1",
+
+
+"hbrand_url9": "/collections/all",
+
+
+"hbrand_alt9": "",
+
+
+"hbrand_show10": "1",
+
+
+"hbrand_url10": "/collections/all",
+
+
+"hbrand_alt10": "",
+
+
+"hfp_title": "Sản phẩm khuyến mãi ",
+
+
+"hfp_select": "nike",
+
+
+"hfp_limit": "24",
+
+
+"hb_show1": "1",
+
+
+"hb_url1": "/collections/all",
+
+
+"hb_img_alt1": "Index Banner Image 1",
+
+
+"hb_show2": "1",
+
+
+"hb_url2": "/collections/all",
+
+
+"hb_img_alt2": "Index Banner Image 2",
+
+
+"hb_show3": "1",
+
+
+"hb_url3": "/collections/all",
+
+
+"hb_img_alt3": "Index Banner Image 3",
+
+
+"hb_show4": "1",
+
+
+"hb_url4": "/collections/all",
+
+
+"hb_img_alt4": "",
+
+
+"hc_side_img_show1": "1",
+
+
+"hc_side_img_url1": "/collections/all",
+
+
+"hc_side_img_alt1": "",
+
+
+"hc1_title": "",
+
+
+"hc1_select": "",
+
+
+"hc1_limit": "",
+
+
+"hw_title": "",
+
+
+"hw_desc": "",
+
+
+"hw_btntext": "",
+
+
+"hw_btnurl": "",
+
+
+"hc_side_img_show2": "1",
+
+
+"hc_side_img_url2": "/collections/all",
+
+
+"hc_side_img_alt2": "",
+
+
+"hc2_title": "",
+
+
+"hc2_select": "",
+
+
+"hc2_limit": "",
+
+
+"hg_show1": "1",
+
+
+"hg_alt1": "Index Gallery Image 1",
+
+
+"hg_show2": true,
+
+
+"hg_alt2": "Index Gallery Image 2",
+
+
+"hg_show3": true,
+
+
+"hg_alt3": "Index Gallery Image 3",
+
+
+"hg_show4": true,
+
+
+"hg_alt4": "Index Gallery Image 4",
+
+
+"hg_show5": true,
+
+
+"hg_alt5": "Index Gallery Image 5",
+
+
+"hg_show6": true,
+
+
+"hg_alt6": "Index Gallery Image 6",
+
+
+"video_bg_alt": "Adidas - There will be haters",
+
+
+"video_title": "Adidas - There will be haters",
+
+
+"hgmy_iframe": "https://www.youtube.com/embed/vQto05XK0ro",
+
+
+"ha_title": "Tin tức nổi bật",
+
+
+"ha_select": "news",
+
+
+"ha_limit": "4",
+
+
+"ft_sub_title": "Đăng ký nhận tin",
+
+
+"ft_sub_desc": "Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây.",
+
+
+"ft_sub_placeholder": "Nhập địa chỉ email của bạn...",
+
+
+"ft_sub_btntext": "<i class=\"fab fa-telegram-plane\"></i>",
+
+
+"ft_certi_show1": true,
+
+
+"ft_certi_alt1": "Đã thông báo Bộ Công Thương",
+
+
+"ft_certi_url1": "javascript:void(0)",
+
+
+"ft_certi_show2": true,
+
+
+"ft_certi_alt2": "Đã đăng ký Bộ Công Thương",
+
+
+"ft_certi_url2": "javascript:void(0)",
+
+
+"ft_nav_title1": "Du lịch nước ngoài",
+
+
+"ft_nav_select1": "du-lich-ngoai-nuoc",
+
+
+"ft_nav_title2": "Du lịch trong nước",
+
+
+"ft_nav_select2": "du-lich-trong-nuoc",
+
+
+"ft_sn_title": "",
+
+
+"ft_cr_content": "Copyrights © 2018 by <a target=\"_blank\" href=\"http://suplo.vn\">Suplo</a>. <a target=\"_blank\" href=\"https://www.haravan.com\">Powered by Haravan</a>",
+
+
+"mobile_bot_nav_icon1": "<i class=\"fas fa-tag\"></i>",
+
+
+"mobile_bot_nav_title1": "Hàng mới",
+
+
+"mobile_bot_nav_url1": "/collections/all",
+
+
+"mobile_bot_nav_icon2": "<i class=\"fas fa-gift\"></i>",
+
+
+"mobile_bot_nav_title2": "Khuyến mãi",
+
+
+"mobile_bot_nav_url2": "/collections/all",
+
+
+"mobile_bot_nav_icon3": "<i class=\"fas fa-user\"></i>",
+
+
+"mobile_bot_nav_title3": "Tài khoản",
+
+
+"mobile_bot_nav_url3": "/account",
+
+
+"mobile_bot_nav_icon4": "<i class=\"fas fa-phone\"></i>",
+
+
+"mobile_bot_nav_title4": "Liên hệ ",
+
+
+"mobile_bot_nav_url4": "/pages/lien-he ",
+
+
+"mobile_bot_nav_icon5": "<i class=\"fas fa-shopping-cart\"></i>",
+
+
+"mobile_bot_nav_title5": "Giỏ hàng",
+
+
+"mobile_bot_nav_url5": "/cart",
+
+
+"ft_contact_address": "Địa chỉ:",
+
+
+"ft_contact_tel": "Số điện thoại:",
+
+
+"ft_contact_email": "Email:",
+
+
+"col_pro_limit": "8",
+
+
+"col_sb_cate_title": "Các tour du lịch",
+
+
+"col_handle_all_show": true,
+
+
+"col_handle_all_select": "main-menu",
+
+
+"sidebar_col_par_1": "hot-products",
+
+
+"sidebar_menu_par_1": "main-menu",
+
+
+"sidebar_enable_par_1": true,
+
+
+"sidebar_col_par_2": "onsale",
+
+
+"sidebar_menu_par_2": "main-menu",
+
+
+"sidebar_enable_par_2": true,
+
+
+"sidebar_col_par_3": "bo-suu-tap",
+
+
+"sidebar_menu_par_3": "",
+
+
+"sidebar_enable_par_3": false,
+
+
+"sidebar_col_par_4": "bst-vay-cuoi-trang-2014",
+
+
+"sidebar_menu_par_4": "",
+
+
+"sidebar_enable_par_4": false,
+
+
+"sidebar_col_par_5": "bst-vay-cuoi-trang-2015",
+
+
+"sidebar_menu_par_5": "",
+
+
+"sidebar_enable_par_5": false,
+
+
+"sidebar_col_par_6": "bst-vay-cuoi-trang-2016",
+
+
+"sidebar_menu_par_6": "",
+
+
+"sidebar_enable_par_6": false,
+
+
+"sidebar_col_par_7": "bst-vay-cuoi-trang-2017",
+
+
+"sidebar_menu_par_7": "",
+
+
+"sidebar_enable_par_7": false,
+
+
+"sidebar_col_par_8": "bst-vay-da-hoi",
+
+
+"sidebar_menu_par_8": "",
+
+
+"sidebar_enable_par_8": false,
+
+
+"sidebar_col_par_9": "bst-vay-phu-dau",
+
+
+"sidebar_menu_par_9": "",
+
+
+"sidebar_enable_par_9": false,
+
+
+"sidebar_col_par_10": "bst-ao-dai-suplo",
+
+
+"sidebar_menu_par_10": "",
+
+
+"sidebar_enable_par_10": false,
+
+
+"sidebar_col_par_11": "bst-mua-cuoi-suplo",
+
+
+"sidebar_menu_par_11": "",
+
+
+"sidebar_enable_par_11": false,
+
+
+"sidebar_col_par_12": "suplo-in-summer",
+
+
+"sidebar_menu_par_12": "",
+
+
+"sidebar_enable_par_12": false,
+
+
+"sidebar_col_par_13": "autumn-18th-collection",
+
+
+"sidebar_menu_par_13": "",
+
+
+"sidebar_enable_par_13": false,
+
+
+"sidebar_col_par_14": "warm-winter-2017-collection",
+
+
+"sidebar_menu_par_14": "",
+
+
+"sidebar_enable_par_14": false,
+
+
+"sidebar_col_par_15": "",
+
+
+"sidebar_menu_par_15": "",
+
+
+"sidebar_enable_par_15": "",
+
+
+"sidebar_col_par_16": "",
+
+
+"sidebar_menu_par_16": "",
+
+
+"sidebar_enable_par_16": "",
+
+
+"sidebar_col_par_17": "",
+
+
+"sidebar_menu_par_17": "",
+
+
+"sidebar_enable_par_17": "",
+
+
+"sidebar_col_par_18": "",
+
+
+"sidebar_menu_par_18": "",
+
+
+"sidebar_enable_par_18": "",
+
+
+"sidebar_col_par_19": "",
+
+
+"sidebar_menu_par_19": "",
+
+
+"sidebar_enable_par_19": "",
+
+
+"sidebar_col_par_20": "",
+
+
+"sidebar_menu_par_20": "",
+
+
+"sidebar_enable_par_20": "",
+
+
+"sort_vendor_title": "Nơi khởi hành",
+
+
+"sort_price_title": "Khoảng giá",
+
+
+"show_material": true,
+
+
+"sort_material_title": "Loại tour du lịch",
+
+
+"material_value": "Tiết kiệm, Cao cấp, Phượt đoàn",
+
+
+"sort_size_title": "Các bữa ăn trong ngày",
+
+
+"sort_color_title": "Màu sắc",
+
+
+"color_value_title_9": "",
+
+
+"color_value_9": "#ffffff",
+
+
+"color_value_title_10": "",
+
+
+"color_value_10": "#ffffff",
+
+
+"color_value_title_11": "",
+
+
+"color_value_11": "#ffffff",
+
+
+"color_value_title_12": "",
+
+
+"color_value_12": "#ffffff",
+
+
+"color_value_title_13": "",
+
+
+"color_value_13": "#ffffff",
+
+
+"color_value_title_14": "",
+
+
+"color_value_14": "#ffffff",
+
+
+"color_value_title_15": "",
+
+
+"color_value_15": "#ffffff",
+
+
+"color_value_title_16": "",
+
+
+"color_value_16": "#ffffff",
+
+
+"color_value_title_17": "",
+
+
+"color_value_17": "#ffffff",
+
+
+"color_value_title_18": "",
+
+
+"color_value_18": "#ffffff",
+
+
+"color_value_title_19": "",
+
+
+"color_value_19": "#ffffff",
+
+
+"color_value_title_20": "",
+
+
+"color_value_20": "#ffffff",
+
+
+"protab_title1": "Chương trình tour",
+
+
+"protab_title2": "Chi tiết tour",
+
+
+"protab_title3": "Các lưu ý khác",
+
+
+"related_pro_title": "Các tour nổi bật ",
+
+
+"show_seen_products": true,
+
+
+"seen_products_title": "Các tour đã xem",
+
+
+"seen_products_limit": "10",
+
+
+"pro_hotline_support": "Hotline hỗ trợ khách hàng 24/7:",
+
+
+"show_blog_categories": true,
+
+
+"blog_categories_title": "Danh mục tin tức",
+
+
+"blog_sidebar_select": "blog-categories",
+
+
+"blog_banner_url_1": "/collections/all",
+
+
+"blog_banner_alt_1": "Ảnh banner 1",
+
+
+"show_blog_tags": true,
+
+
+"blog_tags_title": "Từ khóa",
+
+
+"blog_banner_url_2": "/collections/all",
+
+
+"blog_banner_alt_2": "Ảnh banner 2",
+
+
+"show_blog_fbpage": true,
+
+
+"blog_single_articles_limit": "9",
+
+
+"blog_si_limit_1": "8",
+
+
+"show_blog_banner_3_1": "",
+
+
+"blog_banner_url_3_1": "",
+
+
+"blog_banner_alt_3_1": "",
+
+
+"blog_si_limit_2": "8",
+
+
+"show_blog_banner_3_2": "",
+
+
+"blog_banner_url_3_2": "",
+
+
+"blog_banner_alt_3_2": "",
+
+
+"blog_si_limit_3": "8",
+
+
+"show_blog_banner_3_3": true,
+
+
+"blog_banner_url_3_3": "/",
+
+
+"blog_banner_alt_3_3": "Banner ngang 1",
+
+
+"blog_si_limit_4": "8",
+
+
+"show_blog_banner_3_4": false,
+
+
+"blog_banner_url_3_4": "/collections/all",
+
+
+"blog_banner_alt_3_4": "",
+
+
+"blog_si_limit_5": "8",
+
+
+"show_blog_banner_3_5": "",
+
+
+"blog_banner_url_3_5": "",
+
+
+"blog_banner_alt_3_5": "",
+
+
+"blog_si_limit_6": "8",
+
+
+"show_blog_banner_3_6": true,
+
+
+"blog_banner_url_3_6": "/collections/bo-suu-tap",
+
+
+"blog_banner_alt_3_6": "Banner ngang 2",
+
+
+"blog_si_limit_7": "",
+
+
+"show_blog_banner_3_7": "",
+
+
+"blog_banner_url_3_7": "",
+
+
+"blog_banner_alt_3_7": "",
+
+
+"blog_si_limit_8": "",
+
+
+"show_blog_banner_3_8": "",
+
+
+"blog_banner_url_3_8": "",
+
+
+"blog_banner_alt_3_8": "",
+
+
+"blog_si_limit_9": "",
+
+
+"show_blog_banner_3_9": "",
+
+
+"blog_banner_url_3_9": "",
+
+
+"blog_banner_alt_3_9": "",
+
+
+"blog_si_limit_10": "",
+
+
+"show_blog_banner_3_10": "",
+
+
+"blog_banner_url_3_10": "",
+
+
+"blog_banner_alt_3_10": "",
+
+
+"related_articles_title": "Các bài viết liên quan",
+
+
+"blog_sidebar_recent_number": "6",
+
+
+"pcontact_address_title": "Địa chỉ trụ sở:",
+
+
+"pcontact_tel_title": "Số điện thoại:",
+
+
+"pcontact_email_title": "Email:",
+
+
+"contact_google_map": "<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>\n\t\t\t\t\t\t\t<div style='overflow:hidden;height:260px;width:100%;'>\n\t\t\t\t\t\t\t\t<div id='gmap_canvas' style='height:260px;width:100%;'></div>\n\t\t\t\t\t\t\t\t<div><small><a href=\"http://embedgooglemaps.com\">Click here to generate your map!</a></small></div>\n\t\t\t\t\t\t\t\t<div><small><a href=\"https://ilovebargain.ph/takatack.com-vouchers/\">takatack ph voucher</a></small></div>\n\t\t\t\t\t\t\t\t<style>\n\t\t\t\t\t\t\t\t\t#gmap_canvas img {\n\t\t\t\t\t\t\t\t\tmax-width: none!important;\n\t\t\t\t\t\t\t\t\tbackground: none!important\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t</style>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<script type='text/javascript'>\n\t\t\t\t\t\t\t\tfunction init_map() {\n\t\t\t\t\t\t\t\tvar myOptions = {\n\t\t\t\t\t\t\t\tzoom: 15,\n\t\t\t\t\t\t\t\tcenter: new google.maps.LatLng(21.0209408, 105.82477300000005),\n\t\t\t\t\t\t\t\tmapTypeId: google.maps.MapTypeId.ROADMAP\n\t\t\t\t\t\t\t\t};\n\t\t\t\t\t\t\t\tmap = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);\n\t\t\t\t\t\t\t\tmarker = new google.maps.Marker({\n\t\t\t\t\t\t\t\tmap: map,\n\t\t\t\t\t\t\t\tposition: new google.maps.LatLng(21.0209408, 105.82477300000005)\n\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t\tinfowindow = new google.maps.InfoWindow({\n\t\t\t\t\t\t\t\tcontent: '<strong>Suplo</strong><br>Tầng 3, Tòa nhà GP INVEST, 170 Đê La Thành, P.Ô Chợ Dừa, Q.Đống Đa, HN<br>'\n\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t\tgoogle.maps.event.addListener(marker, 'click', function() {\n\t\t\t\t\t\t\t\tinfowindow.open(map, marker);\n\t\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\t\tinfowindow.open(map, marker);\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\tgoogle.maps.event.addDomListener(window, 'load', init_map);\n\t\t\t\t\t\t\t</script>",
+
+
+"use_popup_li_1": true,
+
+
+"popup_li_1": "Các sản phẩm khuyến mại với mức giá không thể thấp hơn.",
+
+
+"use_popup_li_2": true,
+
+
+"popup_li_2": "Tin tức mới nhất về các sản phẩm mới, sản phẩm hot, flash sale, hot deal, ...",
+
+
+"use_popup_li_3": true,
+
+
+"popup_li_3": "Các sản phẩm khuyến mại với mức giá không thể thấp hơn.",
+
+
+"use_popup_li_4": true,
+
+
+"popup_li_4": "Tin tức mới nhất về các sản phẩm mới, sản phẩm hot, flash sale, hot deal, ...",
+
+
+"ft_links_select": "footer-copyrights-links",
+
+
+"ms_enable1": true,
+
+
+"ms_video_enable1": true,
+
+
+"ms_video_url1": "http://file.hstatic.net/1000244835/file/untitled.mp4",
+
+
+"slide_desc1": "Bằng tất cả tâm huyết, năng lực vượt trội và quy mô không ngừng phát triển, Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.",
+
+
+"slide_btntext1": "Xem thêm",
+
+
+"slide_btnurl1": "/",
+
+
+"ms_enable2": true,
+
+
+"ms_video_enable2": false,
+
+
+"ms_video_url2": "",
+
+
+"slide_desc2": "Bằng tất cả tâm huyết, năng lực vượt trội và quy mô không ngừng phát triển, Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.",
+
+
+"slide_btntext2": "Xem thêm",
+
+
+"slide_btnurl2": "/",
+
+
+"ms_enable3": true,
+
+
+"ms_video_enable3": false,
+
+
+"slide_desc3": "Bằng tất cả tâm huyết, năng lực vượt trội và quy mô không ngừng phát triển, Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.",
+
+
+"slide_btntext3": "Xem thêm",
+
+
+"slide_btnurl3": "/",
+
+
+"ms_enable4": true,
+
+
+"ms_video_enable4": true,
+
+
+"ms_video_url4": "http://file.hstatic.net/1000217820/file/untitled.mp4",
+
+
+"slide_desc4": "Bằng tất cả tâm huyết, năng lực vượt trội và quy mô không ngừng phát triển, Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.",
+
+
+"slide_btntext4": "Xem thêm",
+
+
+"slide_btnurl4": "/",
+
+
+"ms_enable5": true,
+
+
+"ms_video_enable5": false,
+
+
+"ms_video_url5": "",
+
+
+"slide_desc5": "",
+
+
+"slide_btntext5": "",
+
+
+"slide_btnurl5": "",
+
+
+"ms_video_url3": "",
+
+
+"ft_oh_title": "Giờ mở cửa",
+
+
+"ft_oh_desc": "Từ 8:00 - 22:00 tất cả các ngày trong tuần (bao gồm cả các ngày lễ, ngày Tết).",
+
+
+"footer_bg_color": "#ffffff",
+
+
+"cr_text_color": "#ffffff",
+
+
+"cr_text_color_hover": "#21b7cb",
+
+
+"cr_bg_color": "#1f2746",
+
+
+"use_brands_slider": "1",
+
+
+"brand_show1": "1",
+
+
+"brand_alt1": "Logo hãng 1",
+
+
+"brand_url1": "/",
+
+
+"brand_show2": "1",
+
+
+"brand_alt2": "Logo hãng 2",
+
+
+"brand_url2": "/",
+
+
+"brand_show3": "1",
+
+
+"brand_alt3": "Logo hãng 3",
+
+
+"brand_url3": "/",
+
+
+"brand_show4": "1",
+
+
+"brand_alt4": "Logo hãng 4",
+
+
+"brand_url4": "/",
+
+
+"brand_show5": "1",
+
+
+"brand_alt5": "Logo hãng 5",
+
+
+"brand_url5": "/",
+
+
+"brand_show6": "1",
+
+
+"brand_alt6": "Logo hãng 6",
+
+
+"brand_url6": "/",
+
+
+"brand_show7": "1",
+
+
+"brand_alt7": "Logo hãng 7",
+
+
+"brand_url7": "/",
+
+
+"brand_show8": false,
+
+
+"brand_alt8": "Logo hãng 8",
+
+
+"brand_url8": "/collections/all",
+
+
+"brand_show9": false,
+
+
+"brand_alt9": "",
+
+
+"brand_url9": "",
+
+
+"brand_show10": false,
+
+
+"brand_alt10": "",
+
+
+"brand_url10": "",
+
+
+"col_service_limit": "9",
+
+
+"related_accessories_title": "Gợi ý phụ kiện phù hợp",
+
+
+"related_accessories_limit": "6",
+
+
+"show_related_accessories": true,
+
+
+"slide_content_show1": true,
+
+
+"slide_content_show2": true,
+
+
+"slide_content_show3": true,
+
+
+"slide_content_show4": true,
+
+
+"slide_content_show5": true,
+
+
+"color_index_primary": "#ffffff",
+
+
+"color_index_secondary": "#000000",
+
+
+"color_index_hover": "#ffffff",
+
+
+"preloader_enable": true,
+
+
+"slide_light_text1": "Hành trình Thổ Nhĩ Kỳ khiến du khách sốc hết từ ngày này sang ngày khác. Đã nghe thoáng qua về bay khinh khí cầu nhưng cũng không thể tưởng tượng nổi nó đẹp đến như thế này. Không hổ danh nơi bay khinh khí cầu đẹp nhất thế giới.",
+
+
+"slide_bold_text1": " NƠI BAY KHINH KHÍ CẦU<br/>ĐẸP NHẤT THẾ GIỚI",
+
+
+"slide_light_text2": "Khi đến tham quan du lịch Mộc Châu có một địa điểm mà chắc chắn ai cũng muốn đặt chân đến đó chính là đồi chè Mộc Châu. Những đồi chè xanh mướt trải dài theo triền đồi đã trở thành niềm cảm hứng bất tận cho các nhiếp ảnh gia và những ai đam mê du lịch Mộc Châu.",
+
+
+"slide_bold_text2": "THAM QUAN ĐỒI CHÈ<br/>MỘC CHÂU - SƠN LA",
+
+
+"slide_light_text3": "Khi đến tham quan du lịch Mộc Châu có một địa điểm mà chắc chắn ai cũng muốn đặt chân đến đó chính là đồi chè Mộc Châu. Những đồi chè xanh mướt trải dài theo triền đồi đã trở thành niềm cảm hứng bất tận cho các nhiếp ảnh gia và những ai đam mê du lịch Mộc Châu.",
+
+
+"slide_bold_text3": "THAM QUAN ĐỒI CHÈ<br/>MỘC CHÂU - SƠN LA",
+
+
+"slide_light_text4": "Khi đến tham quan du lịch Mộc Châu có một địa điểm mà chắc chắn ai cũng muốn đặt chân đến đó chính là đồi chè Mộc Châu. Những đồi chè xanh mướt trải dài theo triền đồi đã trở thành niềm cảm hứng bất tận cho các nhiếp ảnh gia và những ai đam mê du lịch Mộc Châu.",
+
+
+"slide_bold_text4": "THAM QUAN ĐỒI CHÈ<br/>MỘC CHÂU - SƠN LA",
+
+
+"slide_light_text5": "Khi đến tham quan du lịch Mộc Châu có một địa điểm mà chắc chắn ai cũng muốn đặt chân đến đó chính là đồi chè Mộc Châu. Những đồi chè xanh mướt trải dài theo triền đồi đã trở thành niềm cảm hứng bất tận cho các nhiếp ảnh gia và những ai đam mê du lịch Mộc Châu.",
+
+
+"slide_bold_text5": "THAM QUAN ĐỒI CHÈ<br/>MỘC CHÂU - SƠN LA",
+
+
+"slide_btn_enable1_1": "1",
+
+
+"slide_btntext1_1": "Xem chi tiết",
+
+
+"slide_btnurl1_1": "/collections/all",
+
+
+"slide_btn_enable2_1": "1",
+
+
+"slide_btntext2_1": "Xem chi tiết",
+
+
+"slide_btnurl2_1": "/collections/all",
+
+
+"slide_btn_enable1_2": "1",
+
+
+"slide_btntext1_2": "Xem 2",
+
+
+"slide_btnurl1_2": "/collections/all",
+
+
+"slide_btn_enable2_2": "1",
+
+
+"slide_btntext2_2": "Giới thiệu",
+
+
+"slide_btnurl2_2": "/pages/about-us",
+
+
+"slide_btn_enable1_3": "1",
+
+
+"slide_btntext1_3": "",
+
+
+"slide_btnurl1_3": "",
+
+
+"slide_btn_enable2_3": "1",
+
+
+"slide_btntext2_3": "",
+
+
+"slide_btnurl2_3": "",
+
+
+"slide_btn_enable1_4": "1",
+
+
+"slide_btntext1_4": "",
+
+
+"slide_btnurl1_4": "",
+
+
+"slide_btn_enable2_4": "1",
+
+
+"slide_btntext2_4": "",
+
+
+"slide_btnurl2_4": "",
+
+
+"slide_btn_enable1_5": "1",
+
+
+"slide_btntext1_5": "",
+
+
+"slide_btnurl1_5": "",
+
+
+"slide_btn_enable2_5": "1",
+
+
+"slide_btntext2_5": "",
+
+
+"slide_btnurl2_5": "",
+
+
+"breadcrumb_use_vid": true,
+
+
+"home_policy_icon1": "<i class=\"fa fa-truck\" aria-hidden=\"true\"></i>",
+
+
+"home_policy_text1": "Miễn phí vận chuyển",
+
+
+"home_policy_icon2": "<i class=\"fa fa-credit-card\" aria-hidden=\"true\"></i>",
+
+
+"home_policy_text2": "Thanh toán đảm bảo",
+
+
+"home_policy_icon3": "<i class=\"fa fa-refresh\" aria-hidden=\"true\"></i>",
+
+
+"home_policy_text3": "Đổi trả miễn phí",
+
+
+"home_policy_icon4": "<i class=\"fa fa-life-ring\" aria-hidden=\"true\"></i>",
+
+
+"home_policy_text4": "Hỗ trợ 24/7",
+
+
+"home_policy_url1": "javascript:void(0)",
+
+
+"home_policy_url2": "javascript:void(0)",
+
+
+"home_policy_url3": "javascript:void(0)",
+
+
+"home_policy_url4": "javascript:void(0)",
+
+
+"countdown_day": "30",
+
+
+"countdown_month": "December",
+
+
+"countdown_year": "2018",
+
+
+"countdown_hours": "23",
+
+
+"countdown_mins": "59",
+
+
+"countdown_secs": "59",
+
+
+"hc_title": "Sản phẩm nổi bật",
+
+
+"hc_tab_enable1": "1",
+
+
+"hc_tab_title1": "Dự án về tài chính",
+
+
+"hc_tab_select1": "cac-du-an-noi-bat",
+
+
+"hc_tab_limit1": "6",
+
+
+"hc_tab_enable2": "1",
+
+
+"hc_tab_title2": "Dự án về kinh doanh",
+
+
+"hc_tab_select2": "cac-du-an-noi-bat",
+
+
+"hc_tab_limit2": "6",
+
+
+"hc_tab_enable3": "1",
+
+
+"hc_tab_title3": "Dự án về bất động sản",
+
+
+"hc_tab_select3": "cac-du-an-noi-bat",
+
+
+"hc_tab_limit3": "6",
+
+
+"hc_tab_enable4": true,
+
+
+"hc_tab_title4": "Dự án về năng lượng",
+
+
+"hc_tab_select4": "cac-du-an-noi-bat",
+
+
+"hc_tab_limit4": "6",
+
+
+"hc_tab_enable5": true,
+
+
+"hc_tab_title5": "Dự án về vận tải",
+
+
+"hc_tab_select5": "cac-du-an-noi-bat",
+
+
+"hc_tab_limit5": "6",
+
+
+"hg_title": "Kho ảnh & video",
+
+
+"hfp_enable_countdown": true,
+
+
+"col_search_select": "",
+
+
+"color_text_hdm": "#333333",
+
+
+"hd_text_color_hover": "#ffffff",
+
+
+"color_text_dropdown": "#666666",
+
+
+"color_text_dropdown_hover": "#21b7cb",
+
+
+"color_bg_dropdown": "#ffffff",
+
+
+"icon_search": true,
+
+
+"icon_call": true,
+
+
+"icon_noti": true,
+
+
+"icon_cart": true,
+
+
+"home_section_app_1": "slider_app",
+
+
+"home_section_app_2": "banner_app",
+
+
+"home_section_app_3": "collection_app",
+
+
+"enable_col_home_app_1": true,
+
+
+"collection_home_app_1": "nike",
+
+
+"enable_col_home_app_2": true,
+
+
+"collection_home_app_2": "hot-products",
+
+
+"enable_col_home_app_3": true,
+
+
+"collection_home_app_3": "onsale",
+
+
+"col_sort_by": "best-selling",
+
+
+"policy_app": "about-us",
+
+
+"support_app": "lien-he",
+
+
+"bold_font": "Comfortaa-Regular",
+
+
+"haboutus_title": "Đồng hành cùng phát triển",
+
+
+"haboutus_desc_enable1": "1",
+
+
+"haboutus_desc1": "Các dịch vụ của Suplo được dựa trên hơn 20 năm kinh nghiệm giúp đỡ khách hàng và đối tác trong kinh doanh và quản lý doanh nghiệp. Với sự chuyên nghiệp và am hiểu của mình, Suplo tự tin đồng hành cùng khách hàng và đối tác cùng nhau phát triển bền vững.",
+
+
+"haboutus_desc_enable2": "1",
+
+
+"haboutus_desc2": "Các dịch vụ của Suplo được dựa trên hơn 20 năm kinh nghiệm giúp đỡ khách hàng và đối tác trong kinh doanh và quản lý doanh nghiệp. Với sự chuyên nghiệp và am hiểu của mình, Suplo tự tin đồng hành cùng khách hàng và đối tác cùng nhau phát triển bền vững.",
+
+
+"haboutus_desc_enable3": false,
+
+
+"haboutus_desc3": "",
+
+
+"haboutus_desc_enable4": false,
+
+
+"haboutus_desc4": "",
+
+
+"haboutus_btn_text": "Về chúng tôi",
+
+
+"haboutus_btn_url": "/",
+
+
+"hau_sta_number1": "2500",
+
+
+"hau_sta_desc1": "Dự án đã hoàn thành",
+
+
+"hau_sta_type1": "Cong",
+
+
+"hau_sta_number2": "1500",
+
+
+"hau_sta_desc2": "Nhân viên kinh nghiệm",
+
+
+"hau_sta_type2": "Cong",
+
+
+"hau_sta_number3": "90",
+
+
+"hau_sta_desc3": "Khách hàng hài lòng",
+
+
+"hau_sta_type3": "Phantram",
+
+
+"hau_sta_number4": "100",
+
+
+"hau_sta_desc4": "Giải thưởng uy tín",
+
+
+"hau_sta_type4": "Cong",
+
+
+"hservices_title": "Các dịch vụ của Suplo",
+
+
+"hservice_enable1": "1",
+
+
+"hservice_title1": "Bảo quản thuốc đúng chuẩn",
+
+
+"hservice_desc1": "Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.",
+
+
+"hservice_btn_text1": "Xem thêm",
+
+
+"hservice_btn_url1": "/",
+
+
+"hservice_enable2": "1",
+
+
+"hservice_title2": "Bán đúng giá niêm yết",
+
+
+"hservice_desc2": "Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.",
+
+
+"hservice_btn_text2": "Xem thêm",
+
+
+"hservice_btn_url2": "/",
+
+
+"hservice_enable3": false,
+
+
+"hservice_title3": "Hoạch định chiến lược",
+
+
+"hservice_desc3": "Các dịch vụ của Suplo được dựa trên hơn 20 năm kinh nghiệm giúp đỡ khách hàng và đối tác trong kinh doanh và quản lý doanh nghiệp. ",
+
+
+"hservice_btn_text3": "Xem thêm",
+
+
+"hservice_btn_url3": "/blogs/cac-dich-vu/hoach-dinh-chien-luoc",
+
+
+"hservice_enable4": false,
+
+
+"hservice_title4": "Vận hành tổ chức",
+
+
+"hservice_desc4": "Các dịch vụ của Suplo được dựa trên hơn 20 năm kinh nghiệm giúp đỡ khách hàng và đối tác trong kinh doanh và quản lý doanh nghiệp. ",
+
+
+"hservice_btn_text4": "Xem thêm",
+
+
+"hservice_btn_url4": "/blogs/cac-dich-vu/van-hanh-to-chuc",
+
+
+"hservice_enable5": false,
+
+
+"hservice_title5": "Quản lý tài chính",
+
+
+"hservice_desc5": "Các dịch vụ của Suplo được dựa trên hơn 20 năm kinh nghiệm giúp đỡ khách hàng và đối tác trong kinh doanh và quản lý doanh nghiệp. ",
+
+
+"hservice_btn_text5": "Xem thêm",
+
+
+"hservice_btn_url5": "/blogs/cac-dich-vu/quan-ly-tai-chinh",
+
+
+"hservice_enable6": false,
+
+
+"hservice_title6": "Phát triển vượt bậc",
+
+
+"hservice_desc6": "Các dịch vụ của Suplo được dựa trên hơn 20 năm kinh nghiệm giúp đỡ khách hàng và đối tác trong kinh doanh và quản lý doanh nghiệp. ",
+
+
+"hservice_btn_text6": "Xem thêm",
+
+
+"hservice_btn_url6": "/blogs/cac-dich-vu/noi-dung-so-hap-dan",
+
+
+"hcontact_title": "Miễn phí hỗ trợ trực tuyến",
+
+
+"hcontact_desc": "Với sự chuyên nghiệp và am hiểu của mình, Suplo tự tin đồng hành cùng khách hàng và đối tác cùng nhau phát triển bền vững.",
+
+
+"hcontact_btn": "Gửi liên hệ",
+
+
+"hprojects_title": "Các dự án nổi bật",
+
+
+"htesti_title": "Nhận xét của du khách",
+
+
+"htesti_desc": "Các dịch vụ của Suplo được dựa trên hơn 20 năm kinh nghiệm giúp đỡ khách hàng và đối tác trong kinh doanh và quản lý doanh nghiệp. Suplo ngày càng có sức lan tỏa mạnh mẽ đến mọi đối tác, khách hàng. Suplo đã làm được một việc lớn, đó là xây dựng được thương hiệu, tạo được uy tín.",
+
+
+"htesti_select": "nhan-xet-cua-du-khach",
+
+
+"htesti_limit": "8",
+
+
+"hbrands_title": "Đối tác của chúng tôi",
+
+
+"harticles_title": "Tin tức nổi bật",
+
+
+"harticles_select": "news",
+
+
+"harticles_limit": "8",
+
+
+"ft_contact_title": "Thông tin liên hệ",
+
+
+"ft_contact_desc": "Suplo cam kết nỗ lực hết mình nhằm cung cấp sản phẩm và dịch vụ đúng với những giá trị mà khách hàng mong đợi.",
+
+
+"use_social_linkedin": false,
+
+
+"social_linkedin_link": "https://vn.linkedin.com/",
+
+
+"ms_height": "500",
+
+
+"hdt_menu_select": "header-top-links",
+
+
+"hd_contact_tel": "Số điện thoại",
+
+
+"hd_contact_email": "Địa chỉ email",
+
+
+"hd_contact_address": "Địa chỉ công ty",
+
+
+"color_bg_hdm": "#ffffff",
+
+
+"hdt_text_color_hover": "#21b7cb",
+
+
+"hdc_bg_color": "#ffffff",
+
+
+"hdc_text_color": "#1f2746",
+
+
+"hdc_text_color_hover": "#21b7cb",
+
+
+"hdmenu_bg_color": "#2c394c",
+
+
+"hdmenu_text_color": "#ffffff",
+
+
+"hdmenu_text_color_hover": "#72aeb5",
+
+
+"color_ms_text": "#ffffff",
+
+
+"color_ms_btntext": "#ffffff",
+
+
+"color_ms_btnbg": "#16a085",
+
+
+"color_ms_btnbg_hover": "#107360",
+
+
+"pau_wholetimeline_enable": true,
+
+
+"pau_timeline_enable1": "1",
+
+
+"pau_timeline_day1": "16",
+
+
+"pau_timeline_month1": "01",
+
+
+"pau_timeline_year1": "2014",
+
+
+"pau_timeline_title1": "What is Lorem Ipsum?",
+
+
+"pau_timeline_desc1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+
+
+"pau_timeline_imgenable1": true,
+
+
+"pau_timeline_enable2": "1",
+
+
+"pau_timeline_day2": "28",
+
+
+"pau_timeline_month2": "02",
+
+
+"pau_timeline_year2": "2014",
+
+
+"pau_timeline_title2": "Where does it come from?",
+
+
+"pau_timeline_desc2": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+
+
+"pau_timeline_imgenable2": false,
+
+
+"pau_timeline_enable3": true,
+
+
+"pau_timeline_day3": "20",
+
+
+"pau_timeline_month3": "03",
+
+
+"pau_timeline_year3": "2014",
+
+
+"pau_timeline_title3": "Why do we use it?",
+
+
+"pau_timeline_desc3": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+
+
+"pau_timeline_imgenable3": false,
+
+
+"pau_timeline_enable4": true,
+
+
+"pau_timeline_day4": "20",
+
+
+"pau_timeline_month4": "05",
+
+
+"pau_timeline_year4": "2014",
+
+
+"pau_timeline_title4": "Where can I get some?",
+
+
+"pau_timeline_desc4": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+
+
+"pau_timeline_imgenable4": false,
+
+
+"pau_timeline_enable5": true,
+
+
+"pau_timeline_day5": "09",
+
+
+"pau_timeline_month5": "07",
+
+
+"pau_timeline_year5": "2014",
+
+
+"pau_timeline_title5": "Vivamus consequat ultrices imperdiet",
+
+
+"pau_timeline_desc5": "Vestibulum imperdiet, sapien ut rhoncus finibus, neque quam gravida augue, quis egestas nulla nisi a lacus. In hac habitasse platea dictumst. Quisque tempus ligula id metus tempus varius. Phasellus risus mi, facilisis vitae consequat sit amet, eleifend at enim. Fusce in orci turpis. Praesent eu fringilla lectus, et elementum ante. Nulla quis fringilla eros, et convallis est. Donec volutpat vitae dui quis consequat. Sed luctus pretium mauris, viverra tincidunt felis lobortis efficitur. Pellentesque aliquam sem id est tincidunt fermentum accumsan a elit. Phasellus ut nisi mattis, scelerisque arcu vitae, pretium diam. Proin viverra vestibulum elit a suscipit. Aenean egestas nunc lectus, ac congue nunc tincidunt id.",
+
+
+"pau_timeline_imgenable5": false,
+
+
+"pau_timeline_enable6": true,
+
+
+"pau_timeline_day6": "30",
+
+
+"pau_timeline_month6": "08",
+
+
+"pau_timeline_year6": "2014",
+
+
+"pau_timeline_title6": "Nunc in ullamcorper tortor, sit amet accumsan ante",
+
+
+"pau_timeline_desc6": "Etiam justo lacus, feugiat ut tincidunt maximus, vestibulum in lorem. In dapibus luctus congue. In hac habitasse platea dictumst. Vestibulum hendrerit, metus at vestibulum feugiat, nisi sem vestibulum massa, eu condimentum purus nisi ut metus. Pellentesque vel massa molestie, mattis nunc sed, ultricies dolor. Phasellus sit amet mi porttitor, convallis enim sit amet, iaculis velit. Aenean eget leo ultricies, facilisis eros eget, rhoncus ipsum. Vivamus a tempus leo.",
+
+
+"pau_timeline_imgenable6": false,
+
+
+"pau_timeline_enable7": true,
+
+
+"pau_timeline_day7": "15",
+
+
+"pau_timeline_month7": "09",
+
+
+"pau_timeline_year7": "2014",
+
+
+"pau_timeline_title7": "Etiam non dolor sit amet felis euismod ultricies",
+
+
+"pau_timeline_desc7": "Aliquam erat volutpat. Vivamus eleifend a augue eu porta. Curabitur turpis sapien, fermentum vel ultrices ut, finibus vitae ex. Nam semper elit sed turpis mollis, commodo ornare magna lacinia. Vivamus a augue nec felis cursus facilisis. Donec rhoncus enim augue, at interdum ligula dictum eu. Etiam sit amet est id risus malesuada condimentum. Donec accumsan lorem est, sed fringilla leo dictum vel. Maecenas consequat leo eget euismod hendrerit. Proin ac ornare lacus. Cras venenatis viverra quam a tempor. Praesent tempus pretium nisi, ut lacinia augue accumsan eu.",
+
+
+"pau_timeline_imgenable7": false,
+
+
+"pau_timeline_enable8": true,
+
+
+"pau_timeline_day8": "01",
+
+
+"pau_timeline_month8": "11",
+
+
+"pau_timeline_year8": "2014",
+
+
+"pau_timeline_title8": "Praesent eleifend mauris enim, non viverra mauris commodo vitae",
+
+
+"pau_timeline_desc8": "Suspendisse potenti. Mauris vitae commodo tortor. Praesent eleifend mauris enim, non viverra mauris commodo vitae. Curabitur id purus elementum, ornare est id, semper nibh. In hac habitasse platea dictumst. Curabitur vitae consectetur velit. Pellentesque placerat massa blandit imperdiet hendrerit. Morbi ex leo, elementum in augue lobortis, porttitor consectetur ligula. Suspendisse maximus porta nibh, at egestas enim mattis accumsan.",
+
+
+"pau_timeline_imgenable8": false,
+
+
+"pau_timeline_enable9": true,
+
+
+"pau_timeline_day9": "10",
+
+
+"pau_timeline_month9": "12",
+
+
+"pau_timeline_year9": "2014",
+
+
+"pau_timeline_title9": "Cras ac enim tincidunt libero interdum pulvinar",
+
+
+"pau_timeline_desc9": "Phasellus diam urna, posuere sed neque nec, gravida porta nisl. Vivamus lacinia sapien ut orci tincidunt malesuada. Aliquam non elementum dui, in accumsan massa. Morbi rutrum, enim eget ultricies aliquam, justo lectus porttitor sapien, non semper nisl lorem vel ligula. Duis malesuada quis justo non aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut nulla nibh, aliquet ut aliquet nec, pretium quis enim. Cras sit amet mauris eu lacus hendrerit euismod sed accumsan turpis. Cras varius vulputate nulla ultricies sagittis. In quam diam, malesuada eget bibendum vitae, blandit vel mi. Quisque at consectetur nisi. Phasellus mauris nisi, cursus et quam at, venenatis consequat neque. Praesent ac pretium eros. Nullam tempor diam sapien, vel posuere nibh auctor sit amet.",
+
+
+"pau_timeline_imgenable9": false,
+
+
+"pau_timeline_enable10": true,
+
+
+"pau_timeline_day10": "29",
+
+
+"pau_timeline_month10": "01",
+
+
+"pau_timeline_year10": "2015",
+
+
+"pau_timeline_title10": "Phasellus et purus vel velit volutpat pellentesque vestibulum eu erat",
+
+
+"pau_timeline_desc10": "Phasellus et purus vel velit volutpat pellentesque vestibulum eu erat. Nullam vel magna a ligula interdum interdum eget non arcu. Suspendisse ut dolor tristique, rutrum nulla a, finibus augue. Nunc ac sapien elementum, malesuada nisl in, egestas nulla. Proin eleifend ante in mi semper varius. Phasellus sagittis tincidunt elit quis egestas. Curabitur varius eros sollicitudin, rutrum diam consequat, pretium tellus. Mauris ac tincidunt libero.",
+
+
+"pau_timeline_imgenable10": false,
+
+
+"pau_wholetimeline_title": "Lịch sử công ty",
+
+
+"pau_wholeleaders_enable": "1",
+
+
+"pau_wholeleaders_title": "Đội ngũ ban giám đốc",
+
+
+"aboutus_staff_enable_1": true,
+
+
+"aboutus_staff_name_1": "William Melanson",
+
+
+"aboutus_staff_role_1": "Chief Legal Officer",
+
+
+"aboutus_staff_desc_1": "William Melanson leads our legal group and serves as principal legal advisor to its executive leadership. In this capacity, Steve oversees the legal and governance aspects of the company’s business. He also serves as corporate secretary to the board of directors.",
+
+
+"aboutus_staff_enable_2": true,
+
+
+"aboutus_staff_name_2": "Dreama Leos",
+
+
+"aboutus_staff_role_2": "Company Group Chairman",
+
+
+"aboutus_staff_desc_2": "Dreama Leos is Company Group Chairman and a member of the Finance Committee. In her role she leads two medically directed, businesses within the company’s global medical device segment. Ashley’s varied career that spans more than 20 years at consulting.",
+
+
+"aboutus_staff_enable_3": true,
+
+
+"aboutus_staff_name_3": " Roberto Johnson",
+
+
+"aboutus_staff_role_3": "Executive Vice President",
+
+
+"aboutus_staff_desc_3": "Roberto Johnson has more than 25 years of global experience in healthcare, having spent 13 years with Bristol-Myers Squibb in executive level, human resource roles in the pharmaceutical, medical devices and consumer segments.",
+
+
+"aboutus_staff_enable_4": true,
+
+
+"aboutus_staff_name_4": "Lamont Milton",
+
+
+"aboutus_staff_role_4": "Group Worldwide Chair",
+
+
+"aboutus_staff_desc_4": "Lamont Milton leads our legal group and serves as principal legal advisor to its executive leadership. In this capacity, Steve oversees the legal and governance aspects of the company’s business. He also serves as corporate secretary to the board of directors. ",
+
+
+"aboutus_staff_enable_5": "",
+
+
+"aboutus_staff_name_5": "",
+
+
+"aboutus_staff_role_5": "",
+
+
+"aboutus_staff_desc_5": "",
+
+
+"aboutus_staff_enable_6": "",
+
+
+"aboutus_staff_name_6": "",
+
+
+"aboutus_staff_role_6": "",
+
+
+"aboutus_staff_desc_6": "",
+
+
+"aboutus_staff_enable_7": "",
+
+
+"aboutus_staff_name_7": "",
+
+
+"aboutus_staff_role_7": "",
+
+
+"aboutus_staff_desc_7": "",
+
+
+"aboutus_staff_enable_8": "",
+
+
+"aboutus_staff_name_8": "",
+
+
+"aboutus_staff_role_8": "",
+
+
+"aboutus_staff_desc_8": "",
+
+
+"htesti_enable1": true,
+
+
+"htesti_cus_title1": "Anh Trần Quang Hiệp",
+
+
+"htesti_cus_role1": "Khách hàng",
+
+
+"htesti_cus_quote1": "“Dịch vụ tư vấn của Suplo là một dịch vụ rất hữu ích và sẽ hỗ trợ các doanh nghiệp cũng như khách hàng tìm được các thiết bị phù hợp nhất với nhu cầu và ngân sách của mình. Tôi rất hài lòng. Xin cảm ơn Suplo!”",
+
+
+"htesti_enable2": true,
+
+
+"htesti_cus_title2": "Anh Phạm Thế Lợi",
+
+
+"htesti_cus_role2": "CEO Tập đoàn Ebay Hoa Kì",
+
+
+"htesti_cus_quote2": "“Tôi đã từng sử dụng dịch vụ sửa chữa của Suplo. Nhân viên công ty đã giúp chúng tôi chỉnh sửa thiết bị trong thời gian ngắn với chất lượng và kết quả rất tốt, tôi rất hài lòng. Nhất định tôi sẽ giới thiệu Suplo.”",
+
+
+"htesti_enable3": true,
+
+
+"htesti_cus_title3": "Anh Trần Thanh Tùng",
+
+
+"htesti_cus_role3": "CEO Tập đoàn Facebook Việt Nam",
+
+
+"htesti_cus_quote3": "\"Suplo ngày càng có sức lan tỏa mạnh mẽ đến mọi đối tác, khách hàng. Tôi nghĩ, Suplo đã làm được một việc lớn, đó là xây dựng được thương hiệu, tạo được uy tín với khách hàng. Điều này thật tuyệt vời!\"",
+
+
+"htesti_enable4": true,
+
+
+"htesti_cus_title4": " \t\t\t\t\t\t\t\tChị Bùi Thị Minh Hà \t\t\t\t\t\t\t",
+
+
+"htesti_cus_role4": "CEO Tập đoàn Amazon",
+
+
+"htesti_cus_quote4": "“Các thiết bị và linh kiện của Suplo cung cấp đã hoạt động rất tốt và ổn định, đảm bảo yêu cầu chất lượng khắt khe của công ty chúng tôi đề ra. Hi vọng công ty hai bên có thể hợp tác cùng phát triển lâu dài.”",
+
+
+"htesti_enable5": "",
+
+
+"htesti_cus_title5": "",
+
+
+"htesti_cus_role5": "",
+
+
+"htesti_cus_quote5": "",
+
+
+"htesti_enable6": "",
+
+
+"htesti_cus_title6": "",
+
+
+"htesti_cus_role6": "",
+
+
+"htesti_cus_quote6": "",
+
+
+"htesti_enable7": "",
+
+
+"htesti_cus_title7": "",
+
+
+"htesti_cus_role7": "",
+
+
+"htesti_cus_quote7": "",
+
+
+"htesti_enable8": "",
+
+
+"htesti_cus_title8": "",
+
+
+"htesti_cus_role8": "",
+
+
+"htesti_cus_quote8": "",
+
+
+"htesti_enable9": "",
+
+
+"htesti_cus_title9": "",
+
+
+"htesti_cus_role9": "",
+
+
+"htesti_cus_quote9": "",
+
+
+"htesti_enable10": "",
+
+
+"htesti_cus_title10": "",
+
+
+"htesti_cus_role10": "",
+
+
+"htesti_cus_quote10": "",
+
+
+"isb_cate_enable": "1",
+
+
+"isb_cate_title": "Danh mục sản phẩm",
+
+
+"isb_cate_select": "",
+
+
+"isb_flashsale_enable": "1",
+
+
+"isb_flashsale_title": "Sản phẩm khuyến mãi",
+
+
+"isb_flashsale_select": "dien-thoai",
+
+
+"isb_flashsale_limit": "10",
+
+
+"isb_sub_enable": "1",
+
+
+"isb_sub_title": "Đăng ký nhận tin",
+
+
+"isb_sub_desc": "Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây.",
+
+
+"isb_sub_placeholder": "Nhập email của bạn...",
+
+
+"isb_sub_btn": "Đăng ký",
+
+
+"isb_testi_enable": "1",
+
+
+"home_section_sidebar1": "index-sidebar-contact",
+
+
+"home_section_sidebar2": "index-sidebar-categories",
+
+
+"home_section_sidebar3": "index-sidebar-flashsale",
+
+
+"home_section_sidebar4": "index-sidebar-subscribe",
+
+
+"hmodule_tab_enable1_1": "1",
+
+
+"hmodule_tab_title1_1": "Thực phẩm chức năng",
+
+
+"hmodule_tab_select1_1": "thuc-pham-chuc-nang",
+
+
+"hmodule_tab_limit1_1": "12",
+
+
+"hmodule_tab_enable1_2": "1",
+
+
+"hmodule_tab_title1_2": "Dược mỹ phẩm",
+
+
+"hmodule_tab_select1_2": "thiet-bi-y-te",
+
+
+"hmodule_tab_limit1_2": "12",
+
+
+"hmodule_tab_enable1_3": "1",
+
+
+"hmodule_tab_title1_3": "Chăm sóc cá nhân",
+
+
+"hmodule_tab_select1_3": "thuc-pham-chuc-nang",
+
+
+"hmodule_tab_limit1_3": "12",
+
+
+"hmodule_tab_enable1_4": "1",
+
+
+"hmodule_tab_title1_4": "Thuốc Tây y",
+
+
+"hmodule_tab_select1_4": "thiet-bi-y-te",
+
+
+"hmodule_tab_limit1_4": "12",
+
+
+"hmodule_tab_enable1_5": "1",
+
+
+"hmodule_tab_title1_5": "Thiết bị y tế",
+
+
+"hmodule_tab_select1_5": "thiet-bi-y-te",
+
+
+"hmodule_tab_limit1_5": "12",
+
+
+"hcoltabs_title": "Sản phẩm nổi bật",
+
+
+"home_banner_alt": "Home Banner ",
+
+
+"home_banner_url": "/",
+
+
+"home_smallcols_show": "1",
+
+
+"hsmallcol_title1": "Thực phẩm chức năng",
+
+
+"hsmallcol_select1": "thuc-pham-chuc-nang",
+
+
+"hsmallcol_limit1": "6",
+
+
+"hsmallcol_title2": "Thiết bị y tế",
+
+
+"hsmallcol_select2": "thiet-bi-y-te",
+
+
+"hsmallcol_limit2": "6",
+
+
+"home_brands_show": "1",
+
+
+"home_section_sidebar5": "index-sidebar-testimonials",
+
+
+"isb_contact_title": "Hỗ trợ trực tuyến",
+
+
+"isb_contact_btn": "Gửi liên hệ",
+
+
+"product_tab_show1": true,
+
+
+"product_tab_show2": true,
+
+
+"product_tab_show3": true,
+
+
+"product_tab_show4": true,
+
+
+"protab_title4": "Hình ảnh tour",
+
+
+"use_article_tldr": true,
+
+
+"slide_alt1": " NƠI BAY KHINH KHÍ CẦU ĐẸP NHẤT THẾ GIỚI",
+
+
+"slide_url1": "/collections/all",
+
+
+"slide_alt2": "THAM QUAN ĐỒI CHÈ MỘC CHÂU - SƠN LA",
+
+
+"slide_url2": "/collections/all",
+
+
+"slide_alt3": "THAM QUAN ĐỒI CHÈ MỘC CHÂU - SƠN LA",
+
+
+"slide_url3": "/collections/all",
+
+
+"slide_alt4": "THAM QUAN ĐỒI CHÈ MỘC CHÂU - SƠN LA",
+
+
+"slide_url4": "/collections/all",
+
+
+"slide_alt5": "THAM QUAN ĐỒI CHÈ MỘC CHÂU - SƠN LA",
+
+
+"slide_url5": "/collections/all",
+
+
+"ms_enable6": "1",
+
+
+"slide_alt6": "Phụ Kiện Giá Sốc<br>Giảm Đến 49%",
+
+
+"slide_url6": "/",
+
+
+"ms_enable7": false,
+
+
+"slide_alt7": "",
+
+
+"slide_url7": "",
+
+
+"ms_enable8": false,
+
+
+"slide_alt8": "",
+
+
+"slide_url8": "",
+
+
+"ms_enable9": false,
+
+
+"slide_alt9": "",
+
+
+"slide_url9": "",
+
+
+"ms_enable10": false,
+
+
+"slide_alt10": "",
+
+
+"slide_url10": "",
+
+
+"smallbanner_enable1": "1",
+
+
+"smallbanner_alt1": "Small Banner 1",
+
+
+"smallbanner_url1": "/",
+
+
+"smallbanner_enable2": "1",
+
+
+"smallbanner_alt2": "Small Banner 2",
+
+
+"smallbanner_url2": "/",
+
+
+"shortnews_title": "Tin công nghệ",
+
+
+"shortnews_desc": "Chào mừng bạn đến với Suplo Mobile. Nếu bạn cần giúp đỡ hãy liên hệ với chúng tôi qua Hotline: (+84) 934 323 882 hoặc Email: support@suplo.vn.",
+
+
+"shortnews_select": "tin-cong-nghe",
+
+
+"home_flashsale_title": "Sản phẩm khuyến mãi hot nhất",
+
+
+"home_flashsale_select": "dien-thoai",
+
+
+"home_flashsale_limit": "30",
+
+
+"hfs_enable_countdown": "1",
+
+
+"home_col_title1": "Điện thoại nổi bật nhất",
+
+
+"home_col_select1": "dien-thoai",
+
+
+"home_col_limit1": "10",
+
+
+"home_col_menu_select1": "",
+
+
+"home_col_menu_enable1": "1",
+
+
+"home_col_title2": "Máy tính bảng nổi bật nhất",
+
+
+"home_col_select2": "tablet",
+
+
+"home_col_limit2": "5",
+
+
+"home_col_menu_select2": "",
+
+
+"home_col_title3": "Phụ kiện chất lượng cao",
+
+
+"home_col_select3": "phu-kien",
+
+
+"home_col_limit3": "5",
+
+
+"home_col_menu_select3": "",
+
+
+"home_promo_enable1": "1",
+
+
+"home_promo_alt1": "Home Promotions 1",
+
+
+"home_promo_url1": "/",
+
+
+"home_promo_enable2": "1",
+
+
+"home_promo_alt2": "Home Promotions 2",
+
+
+"home_promo_url2": "/",
+
+
+"home_promo_enable3": "1",
+
+
+"home_promo_alt3": "Home Promotions 3",
+
+
+"home_promo_url3": "/",
+
+
+"home_promo_enable4": "1",
+
+
+"home_promo_alt4": "Home Promotions 4",
+
+
+"home_promo_url4": "/",
+
+
+"home_promo_enable5": "1",
+
+
+"home_promo_alt5": "Home Promotions 5",
+
+
+"home_promo_url5": "/",
+
+
+"home_promo_enable6": "1",
+
+
+"home_promo_alt6": "Home Promotions 6",
+
+
+"home_promo_url6": "/",
+
+
+"home_promo_enable7": "1",
+
+
+"home_promo_alt7": "Home Promotions 7",
+
+
+"home_promo_url7": "/",
+
+
+"home_promo_enable8": "1",
+
+
+"home_promo_alt8": "Home Promotions 8",
+
+
+"home_promo_url8": "/",
+
+
+"home_promo_enable9": "1",
+
+
+"home_promo_alt9": "Home Promotions 9",
+
+
+"home_promo_url9": "/",
+
+
+"home_promo_enable10": false,
+
+
+"home_promo_alt10": "Home Promotions 10",
+
+
+"home_promo_url10": "/",
+
+
+"home_promo_title": "Các chương trình khác trong tháng",
+
+
+"col_banner_show": "1",
+
+
+"col_banner_enable1": "1",
+
+
+"col_banner_alt1": "Collection Banner 1",
+
+
+"col_banner_url1": "/",
+
+
+"col_banner_enable2": "1",
+
+
+"col_banner_alt2": "Collection Banner 2",
+
+
+"col_banner_url2": "/",
+
+
+"col_banner_enable3": "1",
+
+
+"col_banner_alt3": "Collection Banner 3",
+
+
+"col_banner_url3": "/",
+
+
+"col_banner_enable4": "1",
+
+
+"col_banner_alt4": "Collection Banner 4",
+
+
+"col_banner_url4": "/",
+
+
+"col_banner_enable5": "1",
+
+
+"col_banner_alt5": "Collection Banner 5",
+
+
+"col_banner_url5": "/",
+
+
+"col_banner_enable6": "1",
+
+
+"col_banner_alt6": "Collection Banner 6",
+
+
+"col_banner_url6": "/",
+
+
+"col_banner_enable7": false,
+
+
+"col_banner_alt7": "Collection Banner 7",
+
+
+"col_banner_url7": "",
+
+
+"col_banner_enable8": false,
+
+
+"col_banner_alt8": "",
+
+
+"col_banner_url8": "",
+
+
+"col_banner_enable9": false,
+
+
+"col_banner_alt9": "",
+
+
+"col_banner_url9": "",
+
+
+"col_banner_enable10": false,
+
+
+"col_banner_alt10": "",
+
+
+"col_banner_url10": "",
+
+
+"show_related_pro_articles": true,
+
+
+"related_pro_articles_title": "Tin tức liên quan",
+
+
+"related_pro_articles_select": "news",
+
+
+"related_pro_articles_limit": "2",
+
+
+"pcontact_form_title": "Form liên hệ:",
+
+
+"hdt_cart_title": "Tour đã đặt",
+
+
+"hdt_menu_enable": true,
+
+
+"use_banner_megamenu_1": "",
+
+
+"hd_mainmenu_banner_alt1": "",
+
+
+"hd_mainmenu_banner_url1": "",
+
+
+"use_banner_megamenu_2": true,
+
+
+"hd_mainmenu_banner_alt2": "Megamenu Banner 2",
+
+
+"hd_mainmenu_banner_url2": "/collections/all",
+
+
+"use_banner_megamenu_3": "",
+
+
+"hd_mainmenu_banner_alt3": "",
+
+
+"hd_mainmenu_banner_url3": "",
+
+
+"use_banner_megamenu_4": "",
+
+
+"hd_mainmenu_banner_alt4": "",
+
+
+"hd_mainmenu_banner_url4": "",
+
+
+"use_banner_megamenu_5": "",
+
+
+"hd_mainmenu_banner_alt5": "",
+
+
+"hd_mainmenu_banner_url5": "",
+
+
+"use_banner_megamenu_6": "",
+
+
+"hd_mainmenu_banner_alt6": "",
+
+
+"hd_mainmenu_banner_url6": "",
+
+
+"use_banner_megamenu_7": "",
+
+
+"hd_mainmenu_banner_alt7": "",
+
+
+"hd_mainmenu_banner_url7": "",
+
+
+"use_banner_megamenu_8": "",
+
+
+"hd_mainmenu_banner_alt8": "",
+
+
+"hd_mainmenu_banner_url8": "",
+
+
+"use_banner_megamenu_9": "",
+
+
+"hd_mainmenu_banner_alt9": "",
+
+
+"hd_mainmenu_banner_url9": "",
+
+
+"use_banner_megamenu_10": "",
+
+
+"hd_mainmenu_banner_alt10": "",
+
+
+"hd_mainmenu_banner_url10": "",
+
+
+"slide_btn_enable3_1": "1",
+
+
+"slide_btntext3_1": "Xem chi tiết",
+
+
+"slide_btnurl3_1": "/collections/all",
+
+
+"slide_btn_enable3_2": "1",
+
+
+"slide_btntext3_2": "",
+
+
+"slide_btnurl3_2": "",
+
+
+"slide_btn_enable4_1": "1",
+
+
+"slide_btntext4_1": "Xem chi tiết",
+
+
+"slide_btnurl4_1": "/collections/all",
+
+
+"slide_btn_enable4_2": "1",
+
+
+"slide_btntext4_2": "",
+
+
+"slide_btnurl4_2": "",
+
+
+"slide_btn_enable5_1": "1",
+
+
+"slide_btntext5_1": "Xem chi tiết",
+
+
+"slide_btnurl5_1": "/collections/all",
+
+
+"slide_btn_enable5_2": "1",
+
+
+"slide_btntext5_2": "",
+
+
+"slide_btnurl5_2": "",
+
+
+"home_featuredpro_title": "Các tour nổi bật",
+
+
+"home_featuredpro_use_icon": "1",
+
+
+"home_featuredpro_select": "hot-products",
+
+
+"home_featuredpro_limit": "15",
+
+
+"home_featuredpro_btntext": "Xem tất cả tour",
+
+
+"home_fp_use_icon": "1",
+
+
+"home_csb_title": "Tìm tour du lịch",
+
+
+"home_csb_tourname": "Tên tour:",
+
+
+"hcsb_tourname_placeholder": "Nhập tên tour mà bạn đang tìm kiếm...",
+
+
+"home_csb_placeto": "Nơi đến:",
+
+
+"home_csb_placefrom": "Nơi khởi hành:",
+
+
+"home_csb_datefrom": "Thời gian khởi hành:",
+
+
+"home_csb_btntext": "Tìm tour",
+
+
+"ms_text_color": "#1f2746",
+
+
+"search_text_color": "#ffffff",
+
+
+"search_bg_color": "#1f2746",
+
+
+"hbanners_title": "Các điểm đến hấp dẫn",
+
+
+"hbanners_use_icon": "1",
+
+
+"hbanners_use1": "1",
+
+
+"hbanners_alt1": "Thủ đô Istanbul, Thổ Nhĩ Kỳ ",
+
+
+"hbanners_url1": "/collections/all",
+
+
+"hbanners_use2": "1",
+
+
+"hbanners_alt2": "Mộc Châu - Sơn La, Việt Nam",
+
+
+"hbanners_url2": "/collections/all",
+
+
+"hbanners_use3": "1",
+
+
+"hbanners_alt3": "Vịnh Hạ Long, Việt Nam",
+
+
+"hbanners_url3": "/collections/all",
+
+
+"hbanners_use4": "1",
+
+
+"hbanners_alt4": "TP Hồ Chí Minh, Việt Nam",
+
+
+"hbanners_url4": "/collections/all",
+
+
+"hbanners_use5": "1",
+
+
+"hbanners_alt5": "Phố cổ Hội An, Việt Nam",
+
+
+"hbanners_url5": "/collections/all",
+
+
+"hbanners_use6": "1",
+
+
+"hbanners_alt6": "Bãi Sao - Phú Quốc, Việt Nam",
+
+
+"hbanners_url6": "/collections/all",
+
+
+"hbanners_use7": false,
+
+
+"hbanners_alt7": "",
+
+
+"hbanners_url7": "",
+
+
+"hbanners_use8": false,
+
+
+"hbanners_alt8": "",
+
+
+"hbanners_url8": "",
+
+
+"hbanners_use9": false,
+
+
+"hbanners_alt9": "",
+
+
+"hbanners_url9": "",
+
+
+"home_featuredpro_btnurl": "/collections/all",
+
+
+"hbanners_btntext": "Xem tất cả điểm đến",
+
+
+"hbanners_btnurl": "/collections/all",
+
+
+"hbanners_text_color": "#ffffff",
+
+
+"hbanners_bg_color": "#1f2746",
+
+
+"hav_title": "Tin tức nổi bật",
+
+
+"hav_use_icon": "1",
+
+
+"hav_btntext": "Xem tất cả tin tức",
+
+
+"hav_btnurl": "/blogs/news",
+
+
+"hav_embedyoutube": "https://www.youtube.com/embed/9DVr51b-sds",
+
+
+"hbrands_use_icon": "1",
+
+
+"hbrands_text_color": "#ffffff",
+
+
+"hbrands_bg_color": "#1f2746",
+
+
+"htesti_use_icon": "1",
+
+
+"hpromo_title": "Các chương trình khác trong tháng",
+
+
+"hpromo_use_icon": "1",
+
+
+"show_style": true,
+
+
+"sort_style_title": "Bảo hiểm tai nạn",
+
+
+"style_value": "Có bao gồm bảo hiểm, Không bao gồm bảo hiểm",
+
+
+"show_type": true,
+
+
+"sort_type_title": "Nơi đến",
+
+
+"search_pro_limit": "12",
+
+
+"pcontact_google_map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5120670251613!2d105.86084421536768!3d21.01218739371877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abf776b69417%3A0x10c4f7db43776bb5!2sHanoi+Creative+City!5e0!3m2!1sen!2s!4v1536115056046\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+
+
+"pcontact_shoplist_title": "Hệ thống cửa hàng",
+
+
+"store_enable_1": true,
+
+
+"store_tel_1": "(+84) 934 323 882",
+
+
+"store_googlemap_1": "https://goo.gl/maps/v4AzCV7Ac232",
+
+
+"store_enable_2": true,
+
+
+"store_tel_2": "(+84) 934 323 882",
+
+
+"store_googlemap_2": "https://goo.gl/maps/BEwaSpdCd5S2",
+
+
+"store_enable_3": true,
+
+
+"store_tel_3": "(+84) 934 323 882",
+
+
+"store_googlemap_3": "https://goo.gl/maps/v9QH7x4UAfy",
+
+
+"store_enable_4": true,
+
+
+"store_tel_4": "(+84) 934 323 882",
+
+
+"store_googlemap_4": "https://goo.gl/maps/TwvR4aEHLr22",
+
+
+"store_enable_5": true,
+
+
+"store_tel_5": "(+84) 934 323 882",
+
+
+"store_googlemap_5": "https://goo.gl/maps/fPRfXVYoPjE2",
+
+
+"store_enable_6": true,
+
+
+"store_tel_6": "(+84) 934 323 882",
+
+
+"store_googlemap_6": "https://goo.gl/maps/TgXG7nHeCS62",
+
+
+"store_enable_7": "",
+
+
+"store_tel_7": "",
+
+
+"store_googlemap_7": "",
+
+
+"store_enable_8": "",
+
+
+"store_tel_8": "",
+
+
+"store_googlemap_8": "",
+
+
+"store_enable_9": "",
+
+
+"store_tel_9": "",
+
+
+"store_googlemap_9": "",
+
+
+"store_enable_10": "",
+
+
+"store_tel_10": "",
+
+
+"store_googlemap_10": "",
+
+
+"share_fb_home.png": "",
+
+
+"backtotop_icon1.png": "",
+
+
+"logo.png": "",
+
+
+"favicon.png": "",
+
+
+"hd_mainmenu_banner1.png": "",
+
+
+"hd_mainmenu_banner2.png": "",
+
+
+"hd_mainmenu_banner3.png": "",
+
+
+"hd_mainmenu_banner4.png": "",
+
+
+"hd_mainmenu_banner5.png": "",
+
+
+"hd_mainmenu_banner6.png": "",
+
+
+"hd_mainmenu_banner7.png": "",
+
+
+"hd_mainmenu_banner8.png": "",
+
+
+"hd_mainmenu_banner9.png": "",
+
+
+"hd_mainmenu_banner10.png": "",
+
+
+"ms_banner_img1.jpg": "",
+
+
+"ms_banner_img2.jpg": "",
+
+
+"ms_banner_img3.jpg": "",
+
+
+"ms_banner_img4.jpg": "",
+
+
+"ms_banner_img5.jpg": "",
+
+
+"hfp_title_icon1.png": "",
+
+
+"hbanners_title_icon1.png": "",
+
+
+"hbanners_img1.jpg": "",
+
+
+"hbanners_img2.jpg": "",
+
+
+"hbanners_img3.jpg": "",
+
+
+"hbanners_img4.jpg": "",
+
+
+"hbanners_img5.jpg": "",
+
+
+"hbanners_img6.jpg": "",
+
+
+"hbanners_img7.jpg": "",
+
+
+"hbanners_img8.jpg": "",
+
+
+"hbanners_img9.jpg": "",
+
+
+"hav_title_icon1.png": "",
+
+
+"hbrands_title_icon1.png": "",
+
+
+"brand_img1.png": "",
+
+
+"brand_img2.png": "",
+
+
+"brand_img3.png": "",
+
+
+"brand_img4.png": "",
+
+
+"brand_img5.png": "",
+
+
+"brand_img6.png": "",
+
+
+"brand_img7.png": "",
+
+
+"brand_img8.png": "",
+
+
+"brand_img9.png": "",
+
+
+"brand_img10.png": "",
+
+
+"htesti_title_icon1.png": "",
+
+
+"hpromo_title_icon1.png": "",
+
+
+"home_promo_img1.jpg": "",
+
+
+"home_promo_img2.jpg": "",
+
+
+"home_promo_img3.jpg": "",
+
+
+"home_promo_img4.jpg": "",
+
+
+"home_promo_img5.jpg": "",
+
+
+"home_promo_img6.jpg": "",
+
+
+"home_promo_img7.jpg": "",
+
+
+"home_promo_img8.jpg": "",
+
+
+"home_promo_img9.jpg": "",
+
+
+"home_promo_img10.jpg": "",
+
+
+"store_img_1.png": "",
+
+
+"store_img_2.png": "",
+
+
+"store_img_3.png": "",
+
+
+"store_img_4.png": "",
+
+
+"store_img_5.png": "",
+
+
+"store_img_6.png": "",
+
+
+"store_img_7.png": "",
+
+
+"store_img_8.png": "",
+
+
+"store_img_9.png": "",
+
+
+"store_img_10.png": "",
+
+
+"popup_bg.png": ""
+
+},
+
+"presets": {
+
+
+"Default": {
+
+
+
+"ajax_cart_method": "drawer",
+
+
+
+"cart_notes_enable": true,
+
+
+
+"color_body_bg": "#fff",
+
+
+
+"color_body_text": "#333333",
+
+
+
+"color_borders": "#e5e5e5",
+
+
+
+"color_footer_bg": "#f2f2f2",
+
+
+
+"color_footer_social_link": "#bbbbbb",
+
+
+
+"color_footer_text": "#636363",
+
+
+
+"color_primary": "#747474",
+
+
+
+"color_secondary": "#bbb",
+
+
+
+"favicon_enable": false,
+
+
+
+"footer_newsletter_enable": true,
+
+
+
+"footer_social_enable": true,
+
+
+
+"logo_use_image": false,
+
+
+
+"social_facebook_link": "",
+
+
+
+"social_twitter_link": "",
+
+
+
+"logo_max_width": "",
+
+
+
+"newsletter_form_action": "",
+
+
+
+"cart_vendor_enable": false,
+
+
+
+"customer_layout": "theme"
+
+
+}
+
+}
+}

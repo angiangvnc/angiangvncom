@@ -1,0 +1,52 @@
+<section id="main-slider">
+	<div id="owl-home-main-slider" class="owl-carousel owl-theme">
+		{%for i in (1..5)%}
+		{%capture ms_enable%}ms_enable{{i}}{%endcapture%}
+		{%capture ms_banner_img%}ms_banner_img{{i}}.jpg{%endcapture%}
+		{%capture slide_alt%}slide_alt{{i}}{%endcapture%}
+		{%capture slide_url%}slide_url{{i}}{%endcapture%}
+		{%capture slide_content_show%}slide_content_show{{i}}{%endcapture%}
+		{%capture slide_bold_text%}slide_bold_text{{i}}{%endcapture%}
+		{%capture slide_light_text%}slide_light_text{{i}}{%endcapture%}
+		{%capture slide_btn_enable1%}slide_btn_enable{{i}}_1{%endcapture%}
+		{%capture slide_btntext1%}slide_btntext{{i}}_1{%endcapture%}
+		{%capture slide_btnurl1%}slide_btnurl{{i}}_1{%endcapture%}
+
+		{%if settings[ms_enable]%}
+		<div class="item">
+			<div class="ms-item">
+				{%unless settings[slide_content_show]%}<a href="{{settings[slide_url]}}">{%endunless%}
+				<img src="{{ ms_banner_img | asset_url}}" alt="{{settings[slide_alt]}}" />
+				{%unless settings[slide_content_show]%}</a>{%endunless%}
+				{%if settings[slide_content_show]%}
+				<div class="slide-content text-center">
+					<div class="wrapper">
+						<div class="inner">
+							<div class="grid">
+								<div class="grid__item push--large--one-sixth large--two-thirds">
+									<div class="slide-content-bg">
+										<div class="slide-bold-text">
+											{{settings[slide_bold_text]}}
+										</div>
+										<div class="slide-light-text text-center medium--hide small--hide">
+											{{settings[slide_light_text]}}
+										</div>
+										{%if settings[slide_btn_enable1]%}
+										<div class="slide-btn">
+											<a href="{{settings[slide_btnurl1]}}" class="slide-btn1">{{settings[slide_btntext1]}}</a>
+										</div>
+										{%endif%}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				{%endif%}		
+			</div>
+		</div>
+		{%endif%}
+		{%endfor%}
+	</div>
+</section>
+

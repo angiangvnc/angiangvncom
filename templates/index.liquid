@@ -1,0 +1,6 @@
+{%for i in (1..7)%}
+{%capture home_section%}home_section_{{i}}{%endcapture%}
+{% unless settings[home_section] == "none" %}
+{% include settings[home_section] %}
+{% endunless %}
+{%endfor%}

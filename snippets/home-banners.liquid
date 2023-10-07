@@ -1,0 +1,35 @@
+<section id="home-banners">
+	<div class="wrapper">
+		<div class="inner">
+			<div class="section-title clearfix">
+				{%if settings.hbanners_use_icon%}
+				<img src="{{'hbanners_title_icon1.png' | asset_url}}" alt="{{settings.hbanners_title}}" /> 
+				{%endif%}
+				<h2>
+					{{settings.hbanners_title}}				
+				</h2>
+			</div>
+			<div class="grid-uniform">
+				{%for i in (1..9)%}
+				{%capture hbanners_use%}hbanners_use{{i}}{%endcapture%}
+				{%capture hbanners_img%}hbanners_img{{i}}.jpg{%endcapture%}
+				{%capture hbanners_alt%}hbanners_alt{{i}}{%endcapture%}
+				{%capture hbanners_url%}hbanners_url{{i}}{%endcapture%}
+				{%if settings[hbanners_use]%}
+				<div class="grid__item large--one-third medium--one-half small--one-whole">
+					<a href="{{settings[hbanners_url]}}" class="hbanner-item">
+						<img src="{{hbanners_img | asset_url}}" alt="{{settings[hbanners_alt]}}" />
+						<span>{{settings[hbanners_alt]}}</span>
+					</a>
+				</div>
+				{%endif%}
+				{%endfor%}
+			</div>
+			<div class="grid__item large--one-whole text-center">
+				<a href="{{settings.hbanners_btnurl}}" class="site-btn">
+					{{settings.hbanners_btntext}}
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

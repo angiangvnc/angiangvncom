@@ -1,0 +1,412 @@
+<!-- HRV LAST VIEW PRODUCT -->
+<script>
+(function saveAlgorithm() {
+	lastViewProducts.add('{{ product.handle }}');
+}());
+</script>
+<!-- END: HRV LAST VIEW PRODUCT -->
+
+{%assign sale = false%}
+{% if product.compare_at_price_max > product.price %}
+{%assign sale = true%}
+{%endif%}
+
+{% assign mota = product.description | split : '####' %}
+
+<section id="product-wrapper">
+	<div class="wrapper">
+		<div class="inner">
+			<div itemscope itemtype="http://schema.org/Product">
+				<meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
+				<meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
+
+				<div class="product-detail-inner">
+					<div class="grid mg-left-10 product-single">
+						{%if product.available%}
+						{% assign current_variant = product.selected_or_first_available_variant %}
+						{%else%}
+						{% assign current_variant = product%}
+						{%endif%}
+						<div class="grid__item large--one-whole medium--one-whole small--one-whole pd-left10">
+							<div class="product-content">
+								<div class="pro-content-head clearfix">
+									<h1 itemprop="name">{{product.title}}</h1>
+									{%if current_variant.sku != blank%}
+									<div class="pro-sku ProductSku">
+										<span class="title">Mã SKU:</span> <span class="sku-number">{{product.selected_or_first_available_variant.sku}}</span>
+									</div>
+									{%endif%}
+									<div>
+										<div class="pro-brand">
+											<span class="title">Nơi khởi hành:</span> <a href="/collections/vendors?q={{product.vendor | handleize}}&view=vendor-alt">{{product.vendor}}</a>
+										</div>
+										<span class="pro-seperator">|</span>
+										<div class="pro-type">
+											<span class="title">Nơi đến:</span> <a href="/collections/types?q={{product.type | handleize}}&view=type-alt">{{product.type}}</a>
+										</div>
+										<span class="pro-seperator">|</span>
+										<div class="pro-schedule">
+											<i class="far fa-calendar-alt"></i> 
+											{%for pro_schedule in product.tags%}
+											{%if pro_schedule contains 'thoigian_'%}
+											{{pro_schedule | split: 'thoigian_' | last}}
+											{%endif%}
+											{%endfor%}
+										</div>
+										<span class="pro-seperator">|</span>
+										<div class="pro-starttime">
+											{%for pro_starttime in product.tags%}
+											{%if pro_starttime contains 'khoihanh_'%}
+											Khởi hành: {{pro_starttime | split: 'khoihanh_' | last}}
+											{%endif%}
+											{%endfor%}
+										</div>
+										<span class="pro-seperator">|</span>
+										<div class="pro-transports">
+											Phương tiện: 
+											{%for pro_transport in product.tags%}
+											{%if pro_transport contains 'phuongtien_maybay'%}
+											<i class="fas fa-plane"></i>
+											{%endif%}
+											{%if pro_transport contains 'phuongtien_tauhoa'%}
+											<i class="fas fa-train"></i>
+											{%endif%}
+											{%if pro_transport contains 'phuongtien_oto'%}
+											<i class="fas fa-car"></i>
+											{%endif%}
+											{%if pro_transport contains 'phuongtien_tauthuy'%}
+											<i class="fas fa-ship"></i>
+											{%endif%}
+											{%endfor%}
+										</div>
+									</div>
+								</div>
+
+								<div class="pro-price clearfix">
+									<span class="current-price ProductPrice">{{ current_variant.price | money }}</span>
+									{%if sale%}								
+									<span class="original-price ComparePrice"><s>{{ current_variant.compare_at_price | money }}</s></span>
+									<div class="sale-percentage"><span class="PriceSaving"></span></div>
+									{%endif%}
+								</div>
+
+								<form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm" class="form-vertical">
+									<div class="product-variants-wrapper">							
+										<select name="id" id="productSelect" class="product-single__variants">
+											{% for variant in product.variants %}
+											{% if variant.available %}
+											<option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} data-sku="{{ variant.sku }}" value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
+											{% else %}
+											<option disabled="disabled">
+												{{ variant.title }} - {{ 'products.product.sold_out' | t }}
+											</option>
+											{% endif %}
+											{% endfor %}
+										</select>
+										<div id="product-select-watch" class="select-swatch">
+											{% if product.variants.size > 0 %}
+											{% for option in product.options %}
+											{% include 'swatch' with option %}
+											{% endfor %}
+											{% endif %}
+										</div>
+
+										<div class="product-size-hotline">
+											<div class="product-hotline">
+												{{settings.pro_hotline_support}} <a href="tel:{{settings.shop_hotline1}}">{{settings.shop_hotline1}}</a>
+											</div>
+											<span>|</span>
+											<div class="social-network-actions text-left">
+												<div class="fb-like" data-href="{{shop.url}}{{product.url}}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="grid mg-left-5">
+										{%if product.available%}
+										<div class="grid__item large--one-fifth medium--one-third small--one-whole pd-left5">
+											<div class="product-quantity clearfix">
+												<div class="qty-addcart clearfix">
+													<span>Số lượng </span>
+													<input type="number" id="Quantity" name="quantity" value="1" min="1" class="quantity-selector">
+												</div>		
+											</div>
+										</div>
+										<div class="grid__item large--two-thirds medium--two-thirds small--one-whole pd-left5">
+											<div class="product-actions clearfix">
+												<button type="submit" name="add" id="AddToCart" class="btnAddToCart site-btn">Đặt tour</button>
+												<button type="button" name="buy" id="buy-now" class="btnBuyNow site-btn">Mua ngay</button>										
+											</div>	
+										</div>
+										{%else%}
+										<div class="grid__item large--one-third medium--one-third small--one-whole pd-left5">
+											<div class="product-actions clearfix">
+												<button type="button" disabled class="btnOutOfStock site-btn">Tạm hết</button>
+											</div>	
+										</div>
+										{%endif%}
+									</div>		
+								</form>
+							</div>
+						</div>
+
+						<div class="grid__item large--one-half medium--one-whole small--one-whole pd-left10">
+							<div class="customize-product-slider clearfix">
+								<div id="surround" class="clearfix">
+									<div class="product-images text-center" id="ProductPhoto" >
+										{%if product.images.size > 0%}
+										<img class="product-image-feature" src="{{ product.featured_image | product_img_url : 'master' }}" alt="{{product.title}}">
+										{%if product.images.size > 0 %}
+										<div id="sliderproduct" style="display: none !important;">
+											<ul class="slides" >
+												{% for thumb in product.images %}
+												<li class="product-thumb">
+													<a href="javascript:void(0)" class="product__thumbnail--target-{{forloop.index}}" data-image="{{ thumb.src | product_img_url : 'master' }}" data-zoom-image="{{ thumb.src | product_img_url : 'master' }}">
+														<img alt="{{product.title}}" data-image="{{ thumb.src | product_img_url : 'master' }}" src="{{ thumb.src | product_img_url : 'small' }}" >
+													</a></li>	
+												{% endfor %}
+											</ul>
+										</div>
+										{%endif%}
+										{%else%}
+										<img src="//hstatic.net/0/0/global/design/theme-default/no-image.png" width="100%"  alt="{{product.title}}"/>
+										{%endif%}							
+									</div>
+
+									{% if product.images.size > 0 %}
+									<div class="product-single__thumbnails inline-list">
+										<ul class="product-single__thumbnails inline-list" id="ProductThumbs">
+											<div class="inner owl-carousel">
+												{% for image in product.images %}
+												<li class="thumbnail-item" data-alt="{{image.alt|handle}}">
+													<a href="{{ image.src | img_url: 'master' }}" class="product-single__thumbnail"  data-trigger="{{forloop.index}}">
+														<img src="{{ image.src | img_url: 'small' }}" alt="{{ image.alt }}">
+													</a>
+												</li>
+												{% endfor %}
+											</div>
+										</ul>
+									</div>
+									{%endif%}
+								</div>
+
+								<div class="customize-variants-products-slider text-center" style="display: none !important;">
+									<div id="owl-customize-variants-products-slider" class="owl-carousel owl-theme">
+										{%assign variantImgList = ''%}	
+										{% for variant in product.variants %}
+										{%unless variantImgList contains variant.image.src%}
+										{%assign variantImgList = variantImgList | append: ' - ' | append: variant.image.src %}
+										<div class="item product_variant_item" data-variant-color="{{variant.option1}}" data-alt="{{variant.image.alt|handle}}" data-image="{{ variant.image.src | img_url: 'small' }}" data-feature-image="{{ variant.image.src | img_url: 'master' }}">
+											<img src="{{ variant.image.src | img_url: 'small' }}" alt="{{ variant.image.alt }}">
+										</div>
+										{%endunless%}
+										{%endfor%}
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid__item large--one-half medium--one-whole small--one-whole pd-left10">
+							<div class="product-youtube">
+								{%for protag in product.tags%}
+								{%if protag contains 'video_'%}
+								<iframe width="100%" height="315" src="{{protag | split: 'video_' | last}}" frameborder="0" allowfullscreen></iframe>
+								{%endif%}
+								{%endfor%}
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid__item large--seven-tenths medium--one-whole small--one-whole">
+						<div class="product-description-wrapper">
+							<div class="tab clearfix">
+								{%if settings.product_tab_show1%}
+								<button class="pro-tablinks" onclick="openProTabs(event, 'protab1')" id="defaultOpenProTabs">{{settings.protab_title1}}</button>
+								{%endif%}
+								{%if settings.product_tab_show2%}								
+								<button class="pro-tablinks" onclick="openProTabs(event, 'protab2')">{{settings.protab_title2}}</button>
+								{%endif%}
+								{%if settings.product_tab_show3%}								
+								<button class="pro-tablinks" onclick="openProTabs(event, 'protab3')">{{settings.protab_title3}}</button>
+								{%endif%}								
+								{%if settings.product_tab_show4%}								
+								<button class="pro-tablinks" onclick="openProTabs(event, 'protab4')">{{settings.protab_title4}}</button>
+								{%endif%}							
+							</div>
+							{%if settings.product_tab_show1%}
+							<div id="protab1" class="clearfix pro-tabcontent">
+								{{ mota[0] }}
+							</div>
+							{%endif%}
+							{%if settings.product_tab_show2%}
+							<div id="protab2" class="clearfix pro-tabcontent">
+								{{ mota[1] }}
+							</div>
+							{%endif%}
+							{%if settings.product_tab_show3%}
+							<div id="protab3" class="clearfix pro-tabcontent">
+								{{ mota[2] }}
+							</div>
+							{%endif%}
+							{%if settings.product_tab_show4%}
+							<div id="protab4" class="clearfix pro-tabcontent">
+								{{ mota[3] }}
+							</div>
+							{%endif%}
+						</div>
+						<div class="product-fb-comments">
+							<div class="fb-comments" data-href="{{shop.url}}{{product.url}}" data-width="100%" data-numposts="5"></div>
+						</div>
+					</div>
+					<div class="grid__item large--three-tenths medium--one-whole small--one-whole">
+						{%include 'related-product-articles'%}
+					</div>				
+				</div>
+
+				{% include 'related-products' %}
+
+				{% include 'seen-products' %}
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<script>
+function getImageByAlt(alt){
+	$('.thumbnail-item').each(function(){
+		if($(this).data('alt') != alt){
+			$(this).hide();
+		}else{
+			$(this).show();
+		}
+	})
+}
+$('.product_variant_item').click(function(){
+	var vid = $(this).data('variant-color');
+	var imgf = $(this).data('feature-image');
+	$(".product-thumb img[data-image='"+imgf+"']").click().parents('li').addClass('active');
+	$('#product-select-option-0').val(vid);
+	if ($(window).width() > 480) {
+		getImageByAlt($(this).data('alt'));
+	};
+	$('.product_variant_item').removeClass('active');
+	$(this).addClass('active');
+})
+$('.product_variant_item').trigger('click');
+</script>
+
+<script>
+$(".product-thumb img").click(function(){
+	$(".product-thumb").removeClass('active');
+	$(this).parents('li').addClass('active');
+	$(".product-image-feature").attr("src",$(this).attr("data-image"));
+	$(".product-image-feature").attr("data-zoom-image",$(this).attr("data-zoom-image"));
+});
+
+$(".product-thumb").first().addClass('active');
+</script>
+
+{% if product.images.size > 0 %}
+<script>
+$(document).ready(function(){
+	if($(".slides .product-thumb").length>4){
+		$('#sliderproduct').flexslider({
+			animation: "slide",
+			controlNav: false,
+			animationLoop: false,
+			slideshow: false,
+			itemWidth:95,
+			itemMargin: 10,
+		});
+	}
+	if($(window).width() > 960){
+		jQuery(".product-image-feature").elevateZoom({
+			gallery:'sliderproduct',
+			scrollZoom : true
+		});
+	} else {
+
+	}
+	jQuery('.slide-next').click(function(){
+		if($(".product-thumb.active").prev().length>0){
+			$(".product-thumb.active").prev().find('img').click();
+		}
+		else{
+			$(".product-thumb:last img").click();
+		}
+	});
+	jQuery('.slide-prev').click(function(){
+		if($(".product-thumb.active").next().length>0){
+			$(".product-thumb.active").next().find('img').click();
+		}
+		else{
+			$(".product-thumb:first img").click();
+		}
+	});
+});
+</script>
+{% endif %}
+
+<script>
+$('.product-single__thumbnail').click(function(e){
+	e.preventDefault();
+	$('.product__thumbnail--target-' + $(this).data('trigger')).trigger('click');
+	$('.product-single__thumbnail').removeClass('active');
+	$(".product-image-feature").attr("src",$(this).attr("href"));
+	$(".product-image-feature").attr("data-zoom-image",$(this).attr("href"));
+	$(this).addClass('active');
+})
+
+</script>
+
+<script>
+$('.swatch-element.color').click(function(e){
+	var color_name = $(this).data("value");
+	console.log(color_name);
+	$(".item.product_variant_item[data-variant-color='" + color_name + "']").trigger('click');
+})
+</script>
+
+<!-------------------------------------------->
+
+{{ 'option_selection.js' | haravan_asset_url | script_tag }}
+<script>
+var selectCallback = function(variant, selector) {
+	if (variant && variant.available) {
+		if(variant.featured_image != null)
+		{
+			$(".product-thumb").removeClass('active');
+			$(".product-thumb img[data-image='"+Haravan.resizeImage(variant.featured_image.src,'master')+"']").click().parents('li').addClass('active');
+			$(".product_variant_item[data-image='"+Haravan.resizeImage(variant.featured_image.src,'small')+"']").click();
+			$(".product_variant_item").removeClass('active');
+			$(".product_variant_item[data-image='"+Haravan.resizeImage(variant.featured_image.src,'small')+"']").addClass('active');
+		}
+	}
+	timber.productPage({
+		money_format: "{{ shop.money_format }}",
+		variant: variant,
+		selector: selector
+	});
+};
+
+jQuery(function($) {
+	new Haravan.OptionSelectors('productSelect', {
+		product: {{ product | json }},
+															onVariantSelected: selectCallback,
+															enableHistoryState: false
+															});
+
+	// Add label if only one product option and it isn't 'Title'. Could be 'Size'.
+	{% if product.options.size == 1 and product.options.first != 'Title' %}
+	$('.selector-wrapper:eq(0)').prepend('<label for="productSelect-option-0">{{ product.options.first | escape }}</label>');
+	 {% endif %}
+
+	 // Hide selectors if we only have 1 variant and its title contains 'Default'.
+	 {% if product.variants.size == 1 and product.variants.first.title contains 'Default' %}
+	 $('.selector-wrapper').hide();
+		{% endif %}
+		});
+		</script>

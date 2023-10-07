@@ -1,0 +1,54 @@
+{%layout none%}
+<h3>
+	{% if cart.item_count > 0 %}
+	Giỏ hàng của tôi ({{cart.item_count}} sản phẩm)
+	{%else%}
+	Giỏ hàng trống
+	{%endif%}
+	<span class="btnCloseQVCart"><i class="fa fa-times" aria-hidden="true"></i></span>
+</h3>
+<ul class="no-bullets">
+	{% if cart.item_count > 0 %}
+	{% for item in cart.items %}
+	<li class="cart-item">
+		<a href="/cart/change?line={{ forloop.index }}&amp;quantity=0" class="cart__remove"><i class="fa fa-times" aria-hidden="true"></i></a>
+		<div class="grid mg-left-15">
+			<div class="grid__item large--four-twelfths medium--four-twelfths small--four-twelfths pd-left15">
+				<div class="cart-item-img text-center">
+					<a href="{{ item.url | within: collections.all }}">
+						{%if item.variant.image%}
+						<img src="{{ item.variant.image | img_url: 'small' }}" alt="{{ item.title | escape }}" />
+						{%else%}
+						<img src="{{ item | img_url: 'small' }}" alt="{{ item.title | escape }}" />
+						{%endif%}
+					</a>
+				</div>
+			</div>
+			<div class="grid__item large--eight-twelfths medium--eight-twelfths small--eight-twelfths pd-left15">
+				<div class="cart-item-info text-left">
+					<a href="{{ item.url }}">{{ item.title  | truncate: 50}}</a> 
+					{% unless item.variant.title contains 'Default' %}
+					<small>Thông tin: {{ item.variant.title }}</small>
+					{% endunless %}
+				</div>
+				<div class="cart-item-price-quantity text-left">
+					<span class="quantity">Số lượng: {{ item.quantity }}</span>
+					<span class="current-price">Giá/sp: <b>{{ item.price | money }}</b></span>
+				</div>
+			</div>
+		</div>
+	</li>
+	{%endfor%}
+	{%else%}
+	<li>Bạn chưa có sản phẩm nào trong giỏ hàng!</li>
+	{%endif%}
+</ul>
+{% if cart.item_count > 0 %}
+<div class="qv-cart-total">
+	Tạm tính: <span>{{cart.total_price | money}}</span>
+</div>
+<div class="quickview-cartactions clearfix">
+	<a href="/cart">Xem giỏ hàng</a>
+	<a href="/checkout">Thanh toán</a>
+</div>
+{%endif%}

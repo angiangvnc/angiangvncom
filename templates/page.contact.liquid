@@ -1,0 +1,130 @@
+<div id="page-wrapper">
+	<div class="wrapper">
+		<div class="inner">
+			<div class="grid">
+				<div class="grid__item large--one-whole">
+					<div class="page-contact-wrapper">
+						<div class="page-head">
+							<h1>{{ page.title }}</h1>
+						</div>
+						<div class="page-body">
+							<div class="page-body-inner">
+								<div class="grid md-mg-left-15">
+									<div class="grid__item md-pd-left15 large--one-third medium--one-half small--one-whole">
+										<div class="contact-wrapper text-center">
+											<div class="contact-title">
+												<h4>
+													{{settings.pcontact_address_title}}
+												</h4>
+											</div>
+											<div class="contact-info">
+												{{settings.shop_address}}
+											</div>
+										</div>
+										<div class="contact-wrapper text-center">
+											<div class="contact-title">
+												<h4>
+													{{settings.pcontact_tel_title}}
+												</h4>
+											</div>
+											<div class="contact-info">
+												<a href="tel:{{settings.shop_hotline1}}">{{settings.shop_hotline1}}</a>
+											</div>
+										</div>
+										<div class="contact-wrapper text-center">
+											<div class="contact-title">
+												<h4>
+													{{settings.pcontact_email_title}}
+												</h4>
+											</div>
+											<div class="contact-info">
+												<a href="mailto:{{settings.shop_email}}">{{settings.shop_email}}</a>
+											</div>
+										</div>
+									</div>
+									<div class="grid__item md-pd-left15 large--one-third medium--one-half small--one-whole float-right">
+										<div class="contact-title">
+											<h4>
+												{{settings.pcontact_form_title}}
+											</h4>
+										</div>
+										<div class="form-vertical clearfix">
+											{% form 'contact' %}
+
+											{% comment %}
+											Successful message
+											{% endcomment %}
+											{% if form.posted_successfully? %}
+											<p class="note form-success">
+												{{ 'contact.form.post_success' | t }}
+											</p>
+											{% endif %}
+
+											{{ form.errors | default_errors }}
+
+											{% assign name_attr = 'contact.form.name' | t | handle %}
+											<label for="ContactFormName" class="hidden-label">{{ 'contact.form.name' | t }}</label>
+											<input type="text" id="ContactFormName" class="input-full" name="contact[name]" placeholder="{{ 'contact.form.name' | t }}" autocapitalize="words" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+
+											<label for="ContactFormEmail" class="hidden-label">{{ 'contact.form.email' | t }}</label>
+											<input type="email" id="ContactFormEmail" class="input-full" name="contact[email]" placeholder="{{ 'contact.form.email' | t }}" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+
+											{% assign name_attr = 'contact.form.phone' | t | handle %}
+											<label for="ContactFormPhone" class="hidden-label">{{ 'contact.form.phone' | t }}</label>
+											<input type="tel" id="ContactFormPhone" class="input-full" name="contact[phone]" placeholder="{{ 'contact.form.phone' | t }}" pattern="[0-9\-]*" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+
+											<label for="ContactFormMessage" class="hidden-label">{{ 'contact.form.message' | t }}</label>
+											<textarea rows="10" id="ContactFormMessage" class="input-full" name="contact[body]" placeholder="{{ 'contact.form.message' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+
+											<input type="submit" class="btn right btnContactSubmit" value="{{ 'contact.form.send' | t }}">
+
+											{% endform %}
+										</div>
+									</div>
+									<div class="grid__item md-pd-left15 large--one-third medium--one-whole small--one-whole">
+										{{settings.pcontact_google_map}}
+									</div>
+								</div>
+								<div class="page-contact-shoplist">
+									<div class="section-title clearfix">
+										<h2>
+											{{settings.pcontact_shoplist_title}}
+										</h2>
+									</div>
+									<div class="pcontact-shoplist-wrapper">
+										<div class="grid-uniform md-mg-left-15">
+											{%for i in (1..10)%}
+											{%capture store_enable%}store_enable_{{i}}{%endcapture%}
+											{%capture store_address%}store_address_{{i}}{%endcapture%}
+											{%capture store_tel%}store_tel_{{i}}{%endcapture%}
+											{%capture store_googlemap%}store_googlemap_{{i}}{%endcapture%}
+											{%capture store_img%}store_img_{{i}}.png{%endcapture%}
+											{%if settings[store_enable]%}
+											<div class="grid__item md-pd-left15 large--one-third medium--one-third small--one-half">
+												<div class="pcontact-shop-item">
+													<div class="pcontact-shop-img">
+														<img src="{{store_img | asset_url}}" alt="{{settings[store_address]}}" />
+													</div>
+													<div class="pcontact-shop-address">
+														<a href="{{settings[store_googlemap]}}" target="_blank"><i class="fas fa-map-marker-alt"></i> {{settings[store_address]}}</a>
+													</div>
+													<div class="pcontact-shop-tel">
+														<a href="tel:{{settings[store_tel]}}"><i class="fas fa-phone-volume"></i> {{settings[store_tel]}}</a>
+													</div>
+												</div>
+											</div>
+											{%endif%}
+											{%endfor%}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+

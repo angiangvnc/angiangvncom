@@ -1,0 +1,33 @@
+<section id="home-promotions">
+	<div class="wrapper">
+		<div class="inner">
+			<div class="section-title clearfix">
+				{%if settings.hpromo_use_icon%}
+				<img src="{{'hpromo_title_icon1.png' | asset_url}}" alt="{{settings.hpromo_title}}" /> 
+				{%endif%}
+				<h2>
+					{{settings.hpromo_title}}				
+				</h2>
+			</div>
+			<div class="grid mg-left-10">
+				<div id="owl-home-promotions" class="owl-carousel owl-theme">
+					{%for i in (1..10) %}
+					{%capture home_promo_enable%}home_promo_enable{{i}}{%endcapture%}
+					{%capture home_promo_img%}home_promo_img{{i}}.jpg{%endcapture%}
+					{%capture home_promo_alt%}home_promo_alt{{i}}{%endcapture%}
+					{%capture home_promo_url%}home_promo_url{{i}}{%endcapture%}
+					{%if settings[home_promo_enable]%}
+					<div class="item grid__item pd-left10">
+						<div class="hpromo-item">
+							<a href="{{settings[home_promo_url]}}">
+								<img src="{{home_promo_img | asset_url}}" alt="{{settings[home_promo_alt]}}" />
+							</a>
+						</div>
+					</div>
+					{%endif%}
+					{%endfor%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,39 @@
+{% layout none %}
+{% paginate search.results by settings.col_pro_limit %}
+{%assign count = 0%}
+{% for product_layout in search.results %}
+{%assign count = count | plus:1%}
+{% assign grid_item_width = 'large--one-half medium--one-half small--one-whole' %}
+
+<div class="grid__item product--loop product--grid-item {{ grid_item_width }}">
+	{%include "product-item"%}
+</div>
+{% endfor %}
+
+{% if count == 0%}
+<div class="grid__item large--one-whole">
+	<div class="collection-empty">
+		Không có sản phẩm phù hợp với yêu cầu !
+	</div>
+</div>
+{%endif%} 
+
+<div class="grid__item large--one-whole">
+	{%include "pagination" with 'page'%}
+</div>
+{% endpaginate %}
+
+<script>
+$('.pagination-custom a').click(function(e){
+	e.preventDefault();
+	filter_append_product_by_page($(this).attr('href'));
+	jQuery('html, body').animate({
+		scrollTop: $('.product-list').offset().top - 200
+	}, 500);
+})
+
+//setTimeout(function(){
+//$('.image-resize').divEqual();
+//}, 1000)
+
+</script>

@@ -1,0 +1,72 @@
+<section id="home-articles-video">
+	<div class="wrapper">
+		<div class="inner">
+			<div class="section-title clearfix">
+				{%if settings.hav_use_icon%}
+				<img src="{{'hav_title_icon1.png' | asset_url}}" alt="{{settings.hav_title}}" /> 
+				{%endif%}
+				<h2>
+					{{settings.hav_title}}				
+				</h2>
+			</div>
+			<div class="grid">
+				<div class="grid__item large--one-half medium--one-whole small--one-whole">
+					<div id="home-video">
+						<iframe width="100%" height="315" src="{{settings.hav_embedyoutube}}" frameborder="0" allow="autoplay; encrypted-media" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="grid__item large--one-half medium--one-whole small--one-whole">
+					<div id="home-articles">
+						<div class="grid-uniform">
+							{%assign _ha_select = settings.ha_select%}
+							{%if blogs[_ha_select]articles_count > 0%}
+							{%for article_layout in blogs[_ha_select]articles limit: settings.ha_limit%}
+							<div class="grid__item large--one-whole medium--one-third small--one-whole">
+								<div class="ha-item">
+									<div class="grid mg-left-15">
+										<div class="grid__item pd-left15 large--one-fifth medium--one-whole small--one-third">
+											<div class="article-img">
+												<a href="{{article_layout.url}}">
+													<img src="{{article_layout.image.src | img_url: 'compact'}}" alt="{{article_layout.title}}" />
+												</a>
+											</div>
+										</div>
+										<div class="grid__item pd-left15 large--four-fifths medium--one-whole small--two-thirds">
+											<div class="article-title">
+												<a href="{{article_layout.url}}">{{article_layout.title | truncate: 90}}</a>
+											</div>
+											<div class="article-info">
+												<div class="article-date">
+													<i class="fas fa-calendar-alt"></i> {{ article_layout.published_at | date: '%d/%m/%y' }}
+												</div>
+												<div class="article-author">
+													<i class="fas fa-user"></i> {{article_layout.author}}
+												</div>
+												<div class="article-comment">
+													<i class="fas fa-comments"></i> <span class="fb-comments-count" data-href="{{shop.url}}{{article_layout.url}}"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							{%endfor%}
+							{%else%}
+							<div class="grid__item large--one-whole text-center">
+								<p>
+									Chưa có bài viết nào trong danh mục blog này
+								</p>
+							</div>
+							{%endif%}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				<a href="{{settings.hav_btnurl}}" class="site-btn">
+					{{settings.hav_btntext}}
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

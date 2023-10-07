@@ -1,0 +1,56 @@
+{%if settings.show_related_pro_articles%}
+
+{%assign _related_pro_articles_select = settings.related_pro_articles_select%}
+
+<section id="related-product-articles">
+	<div class="section-title clearfix">
+		<h2>
+			{{settings.related_pro_articles_title}}
+		</h2>
+	</div>
+	<div class="home-section-body">
+		<div class="grid-uniform mg-left-10">
+			{%if blogs[_related_pro_articles_select]articles_count > 0%}
+			{%for article_layout in blogs[_related_pro_articles_select]articles%}
+			{%for pro_variant in product.variants%}
+			{%for al_tag in article_layout.tags%}
+			{%if pro_variant.sku == al_tag%}
+			<div class="grid__item pd-left10 large--one-whole medium--one-half small--one-whole">
+				<div class="rparticle-item">
+					<div class="grid mg-left-10">
+						<div class="grid__item pd-left10 large--four-tenths medium--four-tenths small--four-tenths">
+							<div class="rparticle-img">
+								<a href="{{article_layout.url}}">
+									<img src="{{article_layout.image.src | img_url: 'compact'}}" alt="{{article_layout.title}}" />
+								</a>
+							</div>
+						</div>
+						<div class="grid__item pd-left10 large--six-tenths medium--six-tenths small--six-tenths">
+							<div class="rparticle-title">
+								<a href="{{article_layout.url}}">{{article_layout.title | truncate: 45}}</a>
+							</div>
+							<div class="rparticle-info">
+								<div class="article-date">
+									<i class="fas fa-calendar-alt"></i> {{ article_layout.published_at | date: '%d/%m/%y' }}
+								</div>
+								<div class="article-comment">
+									<i class="fas fa-comments"></i> <span class="fb-comments-count" data-href="{{shop.url}}{{article_layout.url}}"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{%endif%}
+			{%endfor%}
+			{%endfor%}
+			{%endfor%}
+			{%else%}
+			<div class="grid__item pd-left10 large--one-whole medium--one-whole small--one-whole">
+				Chưa có bài viết nào trong danh mục blog này!
+			</div>
+			{%endif%}
+		</div>
+	</div>
+</section>
+{%endif%}

@@ -1,0 +1,113 @@
+{% assign on_sale = false %}
+{% if product_layout.compare_at_price > product_layout.price %}
+{% assign on_sale = true %}
+{% endif %}
+
+{% assign sold_out = true %}
+{% if product_layout.available %}
+{% assign sold_out = false %}
+{% endif %}		
+
+<div class="product-item">
+	<div class="product-img">
+		<a href="{{product_layout.url  | within: collection}}">
+			<img id="{{product_layout.id}}" 
+					 {%if template contains 'index' or template contains 'product'%}
+					 class="lazyload" src="{{ 'lazyload1.jpg' | asset_url }}" data-src="{{ product_layout.featured_image.src | img_url: 'large' }}" 
+					 {%else%}
+					 src="{{ product_layout.featured_image.src | img_url: 'large' }}"
+					 {%endif%}
+					 alt="{{product_layout.title}}" />
+		</a>
+
+		{% if on_sale %}
+		<div class="tag-saleoff text-center">
+			-{{product_layout.compare_at_price_max | minus: product_layout.price | divided_by:product_layout.compare_at_price_max | times : 100 | round : 0}}%
+		</div>
+		{% endif %}
+
+		{%if sold_out%}
+		<div class="tag-soldout text-center">
+			<span>Đã hết</span>
+		</div>
+		{%endif%}
+
+		<div class="tag-location">
+			<i class="fas fa-map-marker-alt"></i> 
+			{%for pro_location in product_layout.tags%}
+			{%if pro_location contains 'diadiem_'%}
+			{{pro_location | split: 'diadiem_' | last}}
+			{%endif%}
+			{%endfor%}
+		</div>
+
+		{%comment%}
+		<div class="product-actions text-center clearfix">
+			<div>
+				<button type="button" class="btnQuickView quick-view medium--hide small--hide" data-handle="{{product_layout.url}}"><span><i class="fa fa-search-plus" aria-hidden="true"></i></span></button>
+				<button type="button" {%if sold_out%}disabled{%endif%} class="btnBuyNow buy-now medium--hide small--hide" data-id="{{product_layout.selected_or_first_available_variant.id}}">{%if sold_out%}<span>Hết hàng</span>{%else%}<span>Mua ngay</span>{%endif%}</button>
+				<button type="button" {%if sold_out%}disabled{%endif%} class="btnAddToCart add-to-cart medium--hide small--hide" data-id="{{product_layout.selected_or_first_available_variant.id}}"><span><i class="fa fa-cart-plus" aria-hidden="true"></i></span></button>
+			</div>
+		</div>
+		{%endcomment%}
+	</div>
+
+	<div class="product-item-info">
+		<div class="product-title">
+			<a href="{{product_layout.url}}">{{product_layout.title | truncate: 60}}</a>
+		</div>
+
+		<div class="product-schedule-transports">
+			<div class="product-schedule">
+				<i class="far fa-calendar-alt"></i> 
+				{%for pro_schedule in product_layout.tags%}
+				{%if pro_schedule contains 'thoigian_'%}
+				{{pro_schedule | split: 'thoigian_' | last}}
+				{%endif%}
+				{%endfor%}
+			</div>
+			<span>|</span>
+			<div class="product-transports">
+				Phương tiện: 
+				{%for pro_transport in product_layout.tags%}
+				{%if pro_transport contains 'phuongtien_maybay'%}
+				<i class="fas fa-plane"></i>
+				{%endif%}
+				{%if pro_transport contains 'phuongtien_tauhoa'%}
+				<i class="fas fa-train"></i>
+				{%endif%}
+				{%if pro_transport contains 'phuongtien_oto'%}
+				<i class="fas fa-car"></i>
+				{%endif%}
+				{%if pro_transport contains 'phuongtien_tauthuy'%}
+				<i class="fas fa-ship"></i>
+				{%endif%}
+				{%endfor%}
+			</div>
+		</div>
+
+		<div class="product-starttime">
+			{%for pro_starttime in product_layout.tags%}
+			{%if pro_starttime contains 'khoihanh_'%}
+			Khởi hành: {{pro_starttime | split: 'khoihanh_' | last}}
+			{%endif%}
+			{%endfor%}		
+			tại {{product_layout.vendor}}
+		</div>
+
+		<div class="product-price-detail clearfix">
+			<div class="product-price clearfix">
+				Giá 1 khách chỉ từ:
+				<div>
+					<span class="current-price">{{product_layout.price | money}}</span>
+					{% if on_sale %}
+					<span class="original-price"><s>{{product_layout.compare_at_price_max | money}}</s></span>
+					{% endif %}
+				</div>
+			</div>
+			<div class="product-detail">
+				<a href="{{product_layout.url}}" class="site-btn">Chi tiết</a>
+			</div>
+		</div>
+	</div>
+</div>

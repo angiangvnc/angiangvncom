@@ -1,0 +1,41 @@
+{%assign _home_featuredpro_select = settings.home_featuredpro_select%}
+
+<section id="home-featured-products">
+	<div class="wrapper">
+		<div class="inner">
+			<div class="section-title clearfix">
+				{%if settings.home_featuredpro_use_icon%}
+				<img src="{{'hfp_title_icon1.png' | asset_url}}" alt="{{settings.home_featuredpro_title}}" /> 
+				{%endif%}
+				<h2>
+					{{settings.home_featuredpro_title}}				
+				</h2>
+			</div>
+			<div class="grid-uniform">
+				{%if collections[_home_featuredpro_select]products_count > 0%}
+				{%for product_layout in collections[_home_featuredpro_select]products limit: settings.home_featuredpro_limit%}
+				<div class="grid__item large--one-third medium--one-half small--one-whole">
+					{%include 'product-item'%}
+				</div>
+				{%endfor%}
+				<div class="grid__item large--one-whole text-center">
+					<a href="{{settings.home_featuredpro_btnurl}}" class="site-btn">
+						{{settings.home_featuredpro_btntext}}
+					</a>
+				</div>
+				{%else%}
+				<div class="grid__item large--one-whole text-center">
+					<p>
+						Chưa có sản phẩm nào trong nhóm sản phẩm này!
+					</p>
+				</div>
+				<div class="grid__item large--one-whole text-center">
+					<a href="{{settings.home_featuredpro_btnurl}}" class="site-btn">
+						{{settings.home_featuredpro_btntext}}
+					</a>
+				</div>
+				{%endif%}
+			</div>
+		</div>
+	</div>
+</section>

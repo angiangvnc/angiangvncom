@@ -1,0 +1,47 @@
+{%assign _htesti_select = settings.htesti_select%}
+
+<section id="home-testimonials">
+	<div class="wrapper">
+		<div class="inner">
+			<div class="section-title clearfix">
+				{%if settings.htesti_use_icon%}
+				<img src="{{'htesti_title_icon1.png' | asset_url}}" alt="{{settings.htesti_title}}" /> 
+				{%endif%}
+				<h2>
+					{{settings.htesti_title}}				
+				</h2>
+			</div>
+			<div class="htesti-slider-wrapper grid">
+				{%if blogs[_htesti_select]articles_count > 0%}
+				<div id="owl-htesti-slider" class="owl-carousel owl-theme">
+					{%for htesti_layout in blogs[_htesti_select]articles limit: settings.htesti_limit%}
+					<div class="item grid__item">
+						<div class="htesti-item text-center">
+							<div class="htesti-img">
+								<img src="{{htesti_layout.image.src | img_url: 'small'}}" alt="{{htesti_layout.title}}" />
+							</div>
+							<div class="htesti-desc">
+								"{{htesti_layout.content | strip_html}}"
+							</div>
+							<div class="htesti-title">
+								{{htesti_layout.title}}
+							</div>
+							<div class="htesti-role">
+								{{htesti_layout.excerpt | strip_html}}
+							</div>
+						</div>
+					</div>
+					{%endfor%}
+				</div>
+				{%else%}
+				<div class="grid__item large--one-whole text-center">
+					<p>
+						Chưa có bài viết nào trong danh mục blog này!
+					</p>
+				</div>
+				{%endif%}
+			</div>
+		</div>
+	</div>
+</section>
+
